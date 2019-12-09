@@ -1,0 +1,11 @@
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Data.dll
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Data.pdb
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Data.dll.CodeAnalysisLog.xml
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Data.dll.lastcodeanalysissucceeded
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Model.dll
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\bin\Debug\MileageStats.Model.pdb
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\obj\Debug\MileageStats.Data.csprojAssemblyReference.cache
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\obj\Debug\MileageStats.Data.csproj.CoreCompileInputs.cache
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\obj\Debug\MileageStats.Data.csproj.CopyComplete
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\obj\Debug\MileageStats.Data.dll
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Data\obj\Debug\MileageStats.Data.pdb

@@ -1,0 +1,9 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.Service.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.Service.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\obj\Debug\LGroup.RequestResponse.Service.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\obj\Debug\LGroup.RequestResponse.Service.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.DataTransferObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.ValueObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.DataTransferObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\bin\Debug\LGroup.RequestResponse.ValueObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Service\obj\Debug\LGroup.RequestResponse.Service.csprojResolveAssemblyReference.cache

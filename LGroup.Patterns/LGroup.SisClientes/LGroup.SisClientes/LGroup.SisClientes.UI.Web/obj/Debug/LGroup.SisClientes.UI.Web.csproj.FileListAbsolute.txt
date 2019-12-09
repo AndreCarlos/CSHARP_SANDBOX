@@ -1,0 +1,60 @@
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.dll.config
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.SqlServer.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataAccessObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataTransferObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Helpers.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Mvc.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Razor.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Razor.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataAccessObject.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataTransferObject.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.SqlServer.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Razor.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Razor.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Helpers.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Mvc.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.csprojResolveAssemblyReference.cache
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.dll.config
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.UI.Web.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.SqlServer.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataAccessObject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataTransferObject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Helpers.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Mvc.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Razor.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Deployment.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Razor.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataAccessObject.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\LGroup.SisClientes.DataTransferObject.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\EntityFramework.SqlServer.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Razor.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Deployment.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Webpages.Razor.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Helpers.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\System.Web.Mvc.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\obj\Debug\LGroup.SisClientes.UI.Web.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\FastMapper.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.Web.Common.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.Web.Mvc.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\WebActivatorEx.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.Web.Common.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.UI.Web\bin\Ninject.Web.Mvc.xml

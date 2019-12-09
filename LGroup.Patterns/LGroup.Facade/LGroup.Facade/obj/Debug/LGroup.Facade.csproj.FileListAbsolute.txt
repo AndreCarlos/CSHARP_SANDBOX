@@ -1,0 +1,11 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Facade.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Facade.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Business.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Helper.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Business.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Helper.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\bin\Debug\LGroup.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\obj\Debug\LGroup.Facade.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\obj\Debug\LGroup.Facade.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Facade\obj\Debug\LGroup.Facade.pdb

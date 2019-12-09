@@ -1,0 +1,5 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Model\bin\Debug\LGroup.Builder.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Model\bin\Debug\LGroup.Builder.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Model\obj\Debug\LGroup.Builder.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Model\obj\Debug\LGroup.Builder.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Model\obj\Debug\LGroup.Builder.Model.pdb

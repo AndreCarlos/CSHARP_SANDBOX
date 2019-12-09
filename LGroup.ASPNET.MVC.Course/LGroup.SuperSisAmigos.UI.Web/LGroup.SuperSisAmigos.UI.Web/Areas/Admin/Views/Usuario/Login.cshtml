@@ -1,0 +1,37 @@
+﻿@model UsuarioViewModel
+
+@{
+    ViewBag.Titulo = "..:: Informe Sua Credencial ::..";
+}
+
+@using (Html.BeginForm())
+{
+    <div>
+        @* Exibimos a mensagem de erro da tentativa de burlar *@
+        @Html.ValidationMessage("HACKER");
+    </div>
+    
+    <div>
+        @Html.LabelFor(x => x.Login)
+        @Html.TextBoxFor(x => x.Login, new {@class="form-control"})
+        @Html.ValidationMessageFor(x => x.Login)
+    </div>
+    
+    <div>
+        @* Nos html helpers alguns terminam com FOR e outros não
+            TEXTBOX TEXTBOXFOR
+            LABEL LABELFOR
+            se tiver model, viewmodel utilizar tudo que termina com FOR
+            se não tiver model, viewmodel utilizar tudo que NÃO  tem FOR 
+        *@
+
+        @Html.LabelFor(x => x.Senha)
+        @Html.PasswordFor(x => x.Senha, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Senha)
+    </div>
+    
+    <div>
+        <input class="btn btn-danger btn-sm" type="reset" name="limpar" id="limpar" value="Limpar" />
+        <input class="btn btn-primary btn-sm" type="submit" name="cadastrar" id="cadastrar" value="Cadastrar" />
+    </div>
+}

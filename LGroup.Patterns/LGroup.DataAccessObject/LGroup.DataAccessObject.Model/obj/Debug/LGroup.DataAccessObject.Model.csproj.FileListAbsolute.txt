@@ -1,0 +1,5 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Model\bin\Debug\LGroup.DataAccessObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Model\bin\Debug\LGroup.DataAccessObject.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Model\obj\Debug\LGroup.DataAccessObject.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Model\obj\Debug\LGroup.DataAccessObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Model\obj\Debug\LGroup.DataAccessObject.Model.pdb

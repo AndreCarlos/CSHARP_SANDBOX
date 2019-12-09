@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Titulo = "Página Não Encontrada";
+}
+
+<h2>A Página que você tentou acessar não existe</h2>
+
+<table>
+    <tr>
+        @*Pegamos o IP  da máquina do usuário. Se tiver local é o IP de LOOPBACK
+            Se for IPV4 é 127.0.0.1
+            Se for IPV6 é ::1
+            Quando publicar em produção ou em alguma hospedagem vai  mostrar 
+            o IP externo (IP VERDADEIRO)
+        *@
+        <td>IP: @Request.UserHostAddress</td>
+    </tr>
+    <tr>
+        <td>Data e Hora: @DateTime.Now</td>
+    </tr>
+    <tr>
+        @* Sempre que tomamos um erro de 404, o MVC cria um parâmetro de emtrada com o caminho completo
+            da página que o usuario tentou acessar e não existe!
+        *@
+        <td>URL da Página: @Request["AspxErrorPath"]</td>
+    </tr>
+    <tr>
+        <td>Para mais detalhes ou dúvidas entre em contato com o adminstrador do sistema ou suporte </td>
+    </tr>
+</table>
+<!--<input type="button" id="voltar" name="voltar" value="Voltar"/>-->
+@Html.Button("voltar", "btn btn-danger btn-sm", "button", "voltar")
+
+@section MeusScripts{
+<script>
+    $("#voltar").click(function() {
+    ///Nao importa de onde  o usuario veio (a pagina que ele estava)
+    ///Mandamos ele de volta para lá
+    window.history.back();
+    });
+</script>
+ }

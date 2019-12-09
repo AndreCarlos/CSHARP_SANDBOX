@@ -1,0 +1,84 @@
+﻿@using LGroup.CodeFirst.Model
+
+@*a tela de cadastrar e um por vez ficou somente clientemodel
+    como na tela de listar sao varios registros que vao vir do banco de dados
+    temos que cirar uma lista de clientes - IENUMERABLE. Qume for chamar esta tela
+    tem que mandar pra dentro dela uma lista de clientes *@
+@model IEnumerable<ClienteModel>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Listar</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1> :: Lista de Clientes ::</h1>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Excluir</th>
+                        <th>Editar</th>
+                        <th>Código</th>
+                        <th>Nome</th>
+                        <th>e-Mail</th>
+                        <th>Data de Nascimento</th>
+                        <th>CPF</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @*fizemos um loop para percorrer todos os registros que 
+                        vieram no model binding(controller)
+                        tem duas palavras model:
+                        model -> recebe os dados do controller
+                        Model -> visualizar os dados que chegaram lá em cima
+                     *@
+
+                    @foreach (var cliente in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a href="/Cliente/Excluir/@cliente.Codigo">
+                                    Excluir
+                                </a>
+                            </td>
+                            <td>
+                                <a href="/Cliente/Editar/@cliente.Codigo">
+                                    Editar
+                                </a>
+                            </td>
+                            <td>@cliente.Codigo</td>
+                            <td>@cliente.Nome</td>
+                            <td>@cliente.Email</td>
+                            <td>@cliente.DataNascimento.ToShortDateString()</td>
+                            <td>@cliente.CPF</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    @* se tem mensagem no tempdata, mandamos exibir na tela*@
+    @if (TempData["SUCESSO"] != null)
+    {
+        <script>
+            //tomar cuidado com acentuações e caracteres especiais que voce exibe no js a partir
+            //do razor (C#) pra que ele nao se perca colocar o comando Raw
+            alert('@Html.Raw(TempData["SUCESSO"])');
+        </script>
+    }
+    
+    <footer>
+        <p>Todos os direitos reservados ao <strong>Grupo Notre Dame</strong></p>
+    </footer>
+</body>
+</html>

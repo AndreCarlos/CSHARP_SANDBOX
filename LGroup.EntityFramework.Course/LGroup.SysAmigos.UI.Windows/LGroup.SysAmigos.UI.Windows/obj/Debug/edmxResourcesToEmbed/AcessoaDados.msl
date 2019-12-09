@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EFModelStoreContainer" CdmEntityContainer="EFEntities">
+    <EntitySetMapping Name="TB_AMIGO">
+      <EntityTypeMapping TypeName="EFModel.TB_AMIGO">
+        <MappingFragment StoreEntitySet="TB_AMIGO">
+          <ScalarProperty Name="ID_AMIGO" ColumnName="ID_AMIGO" />
+          <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+          <ScalarProperty Name="NM_AMIGO" ColumnName="NM_AMIGO" />
+          <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+          <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+          <ScalarProperty Name="DT_NASCIMENTO" ColumnName="DT_NASCIMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_SEXO">
+      <EntityTypeMapping TypeName="EFModel.TB_SEXO">
+        <MappingFragment StoreEntitySet="TB_SEXO">
+          <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+          <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_USUARIO">
+      <EntityTypeMapping TypeName="EFModel.TB_USUARIO">
+        <MappingFragment StoreEntitySet="TB_USUARIO">
+          <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+          <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+          <ScalarProperty Name="DS_SENHA" ColumnName="DS_SENHA" />
+          <ScalarProperty Name="NM_USUARIO" ColumnName="NM_USUARIO" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CADASTRAR_AMIGOS" FunctionName="EFModel.Store.CADASTRAR_AMIGOS" />
+    <FunctionImportMapping FunctionImportName="LISTAR_AMIGOS" FunctionName="EFModel.Store.LISTAR_AMIGOS" />
+  </EntityContainerMapping>
+</Mapping>

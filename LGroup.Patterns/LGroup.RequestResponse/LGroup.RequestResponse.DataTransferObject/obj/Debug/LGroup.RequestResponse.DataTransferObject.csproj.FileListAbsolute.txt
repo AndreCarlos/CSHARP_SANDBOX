@@ -1,0 +1,7 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\bin\Debug\LGroup.RequestResponse.DataTransferObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\bin\Debug\LGroup.RequestResponse.DataTransferObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\obj\Debug\LGroup.RequestResponse.DataTransferObject.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\obj\Debug\LGroup.RequestResponse.DataTransferObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\obj\Debug\LGroup.RequestResponse.DataTransferObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\bin\Debug\LGroup.RequestResponse.ValueObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.DataTransferObject\bin\Debug\LGroup.RequestResponse.ValueObject.pdb

@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+@*Quando criamos SECTIONS conseguimos criar blocos de código
+    Que serão levados da página filha pra página pai*@
+@section Styles{
+    <style>
+        .field-validation-error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+}
+
+@using (Html.BeginForm("Editar", "Amigo", FormMethod.Post))
+{
+    //Descarregamos dentro dessa página (BURRA) o bloco de Html que está dentro da PartialView
+    @Html.Partial("_PartialAmigo")
+}

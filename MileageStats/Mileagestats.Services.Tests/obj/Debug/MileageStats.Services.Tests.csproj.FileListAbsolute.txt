@@ -1,0 +1,2 @@
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\Mileagestats.Services.Tests\obj\Debug\MileageStats.Services.Tests.csprojAssemblyReference.cache
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\Mileagestats.Services.Tests\obj\Debug\MileageStats.Services.Tests.csproj.CoreCompileInputs.cache

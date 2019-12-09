@@ -1,0 +1,53 @@
+﻿@* Utilizar os partial views para reaproveitar telas iguais 
+    CADASTRAR e EDITAR
+*@
+
+@* Temos que fazer o MODEL BINDING a sincronizaçao da tela com a classe de VIEWMODEL *@
+
+@* a namespace dessa classe foi importada lá no web.configuinho. Sempre que alterá-lo, tem que fechar a tela
+    e abrir de novo. É quando abrirmos a tela que o Visual Studio lê o arquivo (WEB.CONFIG) *@
+@model AmigoViewModel
+
+
+@using (Html.BeginForm()) //abre e fecha a TAG form
+{
+    <div>
+        @*
+            montamos um label e textbox a partir de uma propriedade da classe de view model (nome)
+            Tudo que digitarmos nos campos da tela ele AUTOMATICAMENTE salva no campo nome
+        *@
+        @Html.LabelFor(x => x.Nome)
+        @Html.TextBoxFor(x => x.Nome, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Informe um eMail comercial" })
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Telefone)
+        @Html.TextBoxFor(x => x.Telefone, new { title = "Informe seu Celular", @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Telefone)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.DataNascimento)
+        @Html.TextBoxFor(x => x.DataNascimento, new { @class = "form-control" })
+        @* o html helper validationmessagefor serve para exibir na tela as mensagens de validação, erro qeu estão associadas
+            ao compo DATANASCIMENTO *@
+        @Html.ValidationMessageFor(x => x.DataNascimento)
+    </div>
+    
+    @Html.Br()
+    
+    <div>
+        @Html.Button("limpar", "btn btn-x btn-danger","reset","Limpar")
+        @Html.Button("salvar", "btn btn-x btn-primary", "submit", "Salvar")
+
+        @*<input class="btn btn-x btn-danger" type="reset" id="limpar" name="limpar" value="Limpar" />
+        <input class="btn btn-x btn-primary" type="submit" id="Salvar" name="Salvar" value="Salvar" />*@
+    </div>
+}

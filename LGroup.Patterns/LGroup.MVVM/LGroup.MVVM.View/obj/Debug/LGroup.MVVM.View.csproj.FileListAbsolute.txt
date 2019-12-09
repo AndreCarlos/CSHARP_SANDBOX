@@ -1,0 +1,23 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.View.exe.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.View.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.View.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\Cadastrar.baml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\Cadastrar.g.cs
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\App.g.cs
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View_MarkupCompile.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.g.resources
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.Properties.Resources.resources
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.ViewModel.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.ViewModel.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.Model.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.View.exe.config
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.exe
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.pdb
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\bin\Debug\LGroup.MVVM.View.exe.config
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.exe
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.View\obj\Debug\LGroup.MVVM.View.pdb

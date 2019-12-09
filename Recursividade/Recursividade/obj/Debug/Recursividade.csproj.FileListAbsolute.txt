@@ -1,0 +1,7 @@
+C:\TESTE-C#\Recursividade\Recursividade\obj\Debug\Recursividade.csprojAssemblyReference.cache
+C:\TESTE-C#\Recursividade\Recursividade\obj\Debug\Recursividade.csproj.CoreCompileInputs.cache
+C:\TESTE-C#\Recursividade\Recursividade\bin\Debug\Recursividade.exe.config
+C:\TESTE-C#\Recursividade\Recursividade\bin\Debug\Recursividade.exe
+C:\TESTE-C#\Recursividade\Recursividade\bin\Debug\Recursividade.pdb
+C:\TESTE-C#\Recursividade\Recursividade\obj\Debug\Recursividade.exe
+C:\TESTE-C#\Recursividade\Recursividade\obj\Debug\Recursividade.pdb

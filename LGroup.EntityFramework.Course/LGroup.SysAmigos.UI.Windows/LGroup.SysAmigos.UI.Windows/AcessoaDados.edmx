@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_AMIGO">
+          <Key>
+            <PropertyRef Name="ID_AMIGO" />
+          </Key>
+          <Property Name="ID_AMIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_SEXO" Type="int" Nullable="false" />
+          <Property Name="NM_AMIGO" Type="varchar" MaxLength="35" Nullable="false" />
+          <Property Name="DS_EMAIL" Type="varchar" MaxLength="35" Nullable="false" />
+          <Property Name="NR_TELEFONE" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="DT_NASCIMENTO" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DS_SEXO" Type="varchar" MaxLength="9" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TB_USUARIO">
+          <Key>
+            <PropertyRef Name="ID_USUARIO" />
+          </Key>
+          <Property Name="ID_USUARIO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NM_USUARIO" Type="varbinary" MaxLength="50" Nullable="false" />
+          <Property Name="DS_SENHA" Type="varchar" MaxLength="6" Nullable="false" />
+          <Property Name="NR_TELEFONE" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="DS_EMAIL" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TB_AMIGO_TB_SEXO">
+          <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_AMIGO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="CADASTRAR_AMIGOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pNM_AMIGO" Type="varchar" Mode="In" />
+          <Parameter Name="pDS_EMAIL" Type="varchar" Mode="In" />
+          <Parameter Name="pNR_TELEFONE" Type="varchar" Mode="In" />
+          <Parameter Name="PDT_NASCIMENTO" Type="date" Mode="In" />
+          <Parameter Name="pID_SEXO" Type="int" Mode="In" />
+        </Function>
+        <Function Name="LISTAR_AMIGOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="EFModelStoreContainer">
+          <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_USUARIO" EntityType="Self.TB_USUARIO" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EFModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_AMIGO">
+          <Key>
+            <PropertyRef Name="ID_AMIGO" />
+          </Key>
+          <Property Name="ID_AMIGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" />
+          <Property Name="NM_AMIGO" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DS_EMAIL" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NR_TELEFONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DT_NASCIMENTO" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="TB_SEXO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_AMIGO" ToRole="TB_SEXO" />
+        </EntityType>
+        <EntityType Name="TB_SEXO">
+          <Key>
+            <PropertyRef Name="ID_SEXO" />
+          </Key>
+          <Property Name="ID_SEXO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DS_SEXO" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="TB_AMIGO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_SEXO" ToRole="TB_AMIGO" />
+        </EntityType>
+        <Association Name="FK_TB_AMIGO_TB_SEXO">
+          <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+          <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_SEXO">
+              <PropertyRef Name="ID_SEXO" />
+            </Principal>
+            <Dependent Role="TB_AMIGO">
+              <PropertyRef Name="ID_SEXO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EFEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" />
+          <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" />
+          <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+            <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+            <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+          </AssociationSet>
+          <EntitySet Name="TB_USUARIO" EntityType="EFModel.TB_USUARIO" />
+          <FunctionImport Name="CADASTRAR_AMIGOS">
+            <Parameter Name="pNM_AMIGO" Mode="In" Type="String" />
+            <Parameter Name="pDS_EMAIL" Mode="In" Type="String" />
+            <Parameter Name="pNR_TELEFONE" Mode="In" Type="String" />
+            <Parameter Name="PDT_NASCIMENTO" Mode="In" Type="DateTime" />
+            <Parameter Name="pID_SEXO" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="LISTAR_AMIGOS" EntitySet="TB_AMIGO" ReturnType="Collection(EFModel.TB_AMIGO)" />
+        </EntityContainer>
+        <EntityType Name="TB_USUARIO">
+          <Key>
+            <PropertyRef Name="ID_USUARIO" />
+          </Key>
+          <Property Name="ID_USUARIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NM_USUARIO" Type="Binary" Nullable="false" MaxLength="50" FixedLength="false" />
+          <Property Name="DS_SENHA" Type="String" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+          <Property Name="NR_TELEFONE" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="DS_EMAIL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <ComplexType Name="LISTAR_AMIGOS_Result">
+          <Property Type="Int32" Name="ID_AMIGO" Nullable="false" />
+          <Property Type="Int32" Name="ID_SEXO" Nullable="false" />
+          <Property Type="String" Name="NM_AMIGO" Nullable="false" MaxLength="35" />
+          <Property Type="String" Name="DS_EMAIL" Nullable="false" MaxLength="35" />
+          <Property Type="String" Name="NR_TELEFONE" Nullable="false" MaxLength="15" />
+          <Property Type="DateTime" Name="DT_NASCIMENTO" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EFModelStoreContainer" CdmEntityContainer="EFEntities">
+          <EntitySetMapping Name="TB_AMIGO">
+            <EntityTypeMapping TypeName="EFModel.TB_AMIGO">
+              <MappingFragment StoreEntitySet="TB_AMIGO">
+                <ScalarProperty Name="ID_AMIGO" ColumnName="ID_AMIGO" />
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="NM_AMIGO" ColumnName="NM_AMIGO" />
+                <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+                <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+                <ScalarProperty Name="DT_NASCIMENTO" ColumnName="DT_NASCIMENTO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_SEXO">
+            <EntityTypeMapping TypeName="EFModel.TB_SEXO">
+              <MappingFragment StoreEntitySet="TB_SEXO">
+                <ScalarProperty Name="ID_SEXO" ColumnName="ID_SEXO" />
+                <ScalarProperty Name="DS_SEXO" ColumnName="DS_SEXO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_USUARIO">
+            <EntityTypeMapping TypeName="EFModel.TB_USUARIO">
+              <MappingFragment StoreEntitySet="TB_USUARIO">
+                <ScalarProperty Name="DS_EMAIL" ColumnName="DS_EMAIL" />
+                <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+                <ScalarProperty Name="DS_SENHA" ColumnName="DS_SENHA" />
+                <ScalarProperty Name="NM_USUARIO" ColumnName="NM_USUARIO" />
+                <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="CADASTRAR_AMIGOS" FunctionName="EFModel.Store.CADASTRAR_AMIGOS" />
+          <FunctionImportMapping FunctionImportName="LISTAR_AMIGOS" FunctionName="EFModel.Store.LISTAR_AMIGOS">
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

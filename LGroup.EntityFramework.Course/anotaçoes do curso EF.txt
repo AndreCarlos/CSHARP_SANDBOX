@@ -1,0 +1,29 @@
+ADO.NET
+
+  MODELO CONECTADO - CONECTADO AO BANCO
+	SqlConneciton
+	SqlCommand
+	SqlDataAdapter
+	SqlDataReader
+
+  MODELO DESCONECTADO - OFF LINE = CACHE(MEMORIA)
+	DataTable, DataSet
+
+
+  FERRAMENTAS ORM (Object Relation Mapping)
+
+	linq to sql(*.DBML) = L2S (LIXO)
+	Entity Framework = (*.EDMX) = EF
+
+
+CONCEITOS DE FERRAMENTA ORM
+
+	MODELO FISICO - BANCO DE DADOS
+		SSDL = Storage
+
+	MODELO CONCEITUAL - EF = CLASSES
+		CSDL = Conceptual
+
+	MAPEAMENTO
+		MSL = Mapping
+		TABELA vs CLASSE

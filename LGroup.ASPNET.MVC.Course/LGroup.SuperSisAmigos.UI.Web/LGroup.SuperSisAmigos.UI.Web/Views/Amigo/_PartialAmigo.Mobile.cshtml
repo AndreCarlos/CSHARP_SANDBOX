@@ -1,0 +1,22 @@
+﻿@model AmigoViewModel
+@using (Html.BeginForm()) //abre e fecha a TAG form
+{
+    <div class="input-group" style="margin-top: 45px;">
+        <div class="input-row">
+            @Html.LabelFor(x => x.Nome)
+            @Html.TextBoxFor(x => x.Nome)
+        </div>
+        <div class="input-row">
+            @Html.LabelFor(x => x.Email)
+            @Html.TextBoxFor(x => x.Email)
+        </div>
+        <div class="input-row">
+            @Html.LabelFor(x => x.Telefone)
+            @Html.TextBoxFor(x => x.Telefone)
+        </div>
+        <div>
+            <button class="btn btn-primary btn-block">Limpar</button>
+            <button class="btn btn-positive btn-block">Salvar</button>
+        </div>
+    </div>
+}

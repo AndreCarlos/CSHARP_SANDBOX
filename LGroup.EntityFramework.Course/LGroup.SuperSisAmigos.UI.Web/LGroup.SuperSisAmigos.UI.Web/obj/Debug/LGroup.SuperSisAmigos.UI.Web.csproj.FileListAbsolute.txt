@@ -1,0 +1,94 @@
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll.config
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.xml
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.csprojResolveAssemblyReference.cache
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.pdb
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll.config
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.pdb
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.pdb
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.xml
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.csprojResolveAssemblyReference.cache
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.dll
+E:\LGROUP\TREINAMENTOS\INCOMPANY\SEMANA\NOTURNO\2014\10-03-14\MVC 5.0\AULA 06\PROJETO\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll.config
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Repository.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Repository.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Mvc.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.csprojResolveAssemblyReference.cache
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll.config
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.UI.Web.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Repository.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.Repository.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Razor.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\System.Web.Helpers.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\bin\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.UI.Web\obj\Debug\LGroup.SuperSisAmigos.UI.Web.pdb

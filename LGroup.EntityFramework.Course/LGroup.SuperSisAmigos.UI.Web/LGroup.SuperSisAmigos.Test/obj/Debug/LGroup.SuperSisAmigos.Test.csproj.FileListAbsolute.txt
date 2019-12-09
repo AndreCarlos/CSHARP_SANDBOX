@@ -1,0 +1,32 @@
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.csprojResolveAssemblyReference.cache
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Repository.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Repository.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.xml
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.dll.config
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.dll.config
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Test.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Repository.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.Repository.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\bin\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Test\obj\Debug\LGroup.SuperSisAmigos.Test.pdb

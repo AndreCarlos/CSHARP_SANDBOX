@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/LGroup.RequestResponse.ValueObject" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/LGroup.RequestResponse.ValueObject" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="TipoMensagemVO">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Aviso" />
+      <xs:enumeration value="Erro" />
+      <xs:enumeration value="Sucesso" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TipoMensagemVO" nillable="true" type="tns:TipoMensagemVO" />
+</xs:schema>

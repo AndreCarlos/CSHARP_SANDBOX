@@ -1,0 +1,22 @@
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll.config
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno04\Documents\certificados\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll.config
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll.config
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\bin\Debug\LGroup.SuperSisAmigos.DataAccess.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.DataAccess\obj\Debug\LGroup.SuperSisAmigos.DataAccess.pdb

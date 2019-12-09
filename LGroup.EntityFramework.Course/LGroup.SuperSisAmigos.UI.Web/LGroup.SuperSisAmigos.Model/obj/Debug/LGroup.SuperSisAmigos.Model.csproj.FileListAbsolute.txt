@@ -1,0 +1,15 @@
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.csprojResolveAssemblyReference.cache
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\incubadora\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Aluno08\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\bin\Debug\LGroup.SuperSisAmigos.Model.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Model\obj\Debug\LGroup.SuperSisAmigos.Model.pdb

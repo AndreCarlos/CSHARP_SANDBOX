@@ -1,0 +1,7 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\bin\Debug\LGroup.LazyLoad.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\bin\Debug\LGroup.LazyLoad.Test.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\bin\Debug\LGroup.LazyLoad.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\bin\Debug\LGroup.LazyLoad.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\obj\Debug\LGroup.LazyLoad.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\obj\Debug\LGroup.LazyLoad.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Test\obj\Debug\LGroup.LazyLoad.Test.pdb

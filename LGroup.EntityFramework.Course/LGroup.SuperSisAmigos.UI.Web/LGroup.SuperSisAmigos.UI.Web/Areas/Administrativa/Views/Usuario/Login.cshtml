@@ -1,0 +1,24 @@
+﻿@model LoginMOD
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(x => x.Nome)
+        @Html.TextBoxFor(x => x.Nome)
+        @Html.ValidationMessageFor(x => x.Nome)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Senha)
+        @Html.PasswordFor(x => x.Senha)
+        @Html.ValidationMessageFor(x => x.Senha)
+    </div>
+    <div>
+        <input type="reset" name="limar" id="limpar" value="Limpar" />
+        <input type="submit" name="logar" id="logar"value="Logar" />
+    </div>
+}
+

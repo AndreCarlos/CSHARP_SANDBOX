@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Erro404";
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+@section Scripts{
+    <script>
+        $(function () {
+            $("#voltar").click(function () {
+                window.history.go(-1);
+            })
+        });
+    </script>
+}
+
+<h2>A Página não existe, entre em contato com o suporte.</h2>
+<table>
+    <tr>
+        <td>Data: @DateTime.Now</td>
+    </tr>
+    <tr>
+        <td> @Request.UserHostAddress</td>
+    </tr>
+    <tr>
+        <td> Página: @Request["AspxErrorPath"]</td>
+    </tr>
+    <tr>
+        <td><input type="button" name="voltar" id="voltar" value="Voltar" /></td>
+    </tr>
+</table>

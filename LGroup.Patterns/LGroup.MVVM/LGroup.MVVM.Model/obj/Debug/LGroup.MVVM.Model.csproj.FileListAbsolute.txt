@@ -1,0 +1,5 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.Model\bin\Debug\LGroup.MVVM.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.Model\bin\Debug\LGroup.MVVM.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.Model\obj\Debug\LGroup.MVVM.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.Model\obj\Debug\LGroup.MVVM.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.Model\obj\Debug\LGroup.MVVM.Model.pdb

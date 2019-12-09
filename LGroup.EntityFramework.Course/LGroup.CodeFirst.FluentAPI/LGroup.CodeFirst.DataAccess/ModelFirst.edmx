@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ModelFirst.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstStoreContainer">
+    <EntitySet Name="TB_PONTO" EntityType="ModelFirst.Store.TB_PONTO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TB_FUNCIONARIO" EntityType="ModelFirst.Store.TB_FUNCIONARIO" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TB_FUNCIONARIOTB_PONTO" Association="ModelFirst.Store.TB_FUNCIONARIOTB_PONTO">
+      <End Role="TB_FUNCIONARIO" EntitySet="TB_FUNCIONARIO" />
+      <End Role="TB_PONTO" EntitySet="TB_PONTO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TB_PONTO">
+    <Key>
+      <PropertyRef Name="ID_PONTO" />
+    </Key>
+    <Property Name="ID_PONTO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_FUNCIONARIO" Type="int" Nullable="false" />
+    <Property Name="DT_PONTO" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TB_FUNCIONARIO">
+    <Key>
+      <PropertyRef Name="ID_FUNCIONARIO" />
+    </Key>
+    <Property Name="ID_FUNCIONARIO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NM_FUNCIONARIO" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="NR_TELEFONE" Type="nvarchar" Nullable="false" MaxLength="15" />
+  </EntityType>
+  <Association Name="TB_FUNCIONARIOTB_PONTO">
+    <End Role="TB_FUNCIONARIO" Type="ModelFirst.Store.TB_FUNCIONARIO" Multiplicity="1" />
+    <End Role="TB_PONTO" Type="ModelFirst.Store.TB_PONTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_FUNCIONARIO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Principal>
+      <Dependent Role="TB_PONTO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelFirstContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_PONTO" EntityType="ModelFirst.TB_PONTO" />
+          <EntitySet Name="TB_FUNCIONARIO" EntityType="ModelFirst.TB_FUNCIONARIO" />
+          <AssociationSet Name="TB_FUNCIONARIOTB_PONTO" Association="ModelFirst.TB_FUNCIONARIOTB_PONTO">
+            <End Role="TB_FUNCIONARIO" EntitySet="TB_FUNCIONARIO" />
+            <End Role="TB_PONTO" EntitySet="TB_PONTO" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="TB_PONTO">
+          <Key>
+            <PropertyRef Name="ID_PONTO" />
+          </Key>
+          <Property Name="ID_PONTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_FUNCIONARIO" Type="Int32" Nullable="false" />
+          <Property Name="DT_PONTO" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="TB_FUNCIONARIO" Relationship="ModelFirst.TB_FUNCIONARIOTB_PONTO" FromRole="TB_PONTO" ToRole="TB_FUNCIONARIO" />
+        </EntityType>
+        <EntityType Name="TB_FUNCIONARIO">
+          <Key>
+            <PropertyRef Name="ID_FUNCIONARIO" />
+          </Key>
+          <Property Name="ID_FUNCIONARIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NM_FUNCIONARIO" Type="String" Nullable="false" MaxLength="40" />
+          <Property Name="NR_TELEFONE" Type="String" Nullable="false" MaxLength="15" />
+          <NavigationProperty Name="TB_PONTO" Relationship="ModelFirst.TB_FUNCIONARIOTB_PONTO" FromRole="TB_FUNCIONARIO" ToRole="TB_PONTO" />
+        </EntityType>
+        <Association Name="TB_FUNCIONARIOTB_PONTO">
+          <End Type="ModelFirst.TB_FUNCIONARIO" Role="TB_FUNCIONARIO" Multiplicity="1" />
+          <End Type="ModelFirst.TB_PONTO" Role="TB_PONTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TB_FUNCIONARIO">
+              <PropertyRef Name="ID_FUNCIONARIO" />
+            </Principal>
+            <Dependent Role="TB_PONTO">
+              <PropertyRef Name="ID_FUNCIONARIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelFirstStoreContainer" CdmEntityContainer="ModelFirstContainer">
+    <EntitySetMapping Name="TB_PONTO">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.TB_PONTO)">
+        <MappingFragment StoreEntitySet="TB_PONTO">
+          <ScalarProperty Name="ID_PONTO" ColumnName="ID_PONTO" />
+          <ScalarProperty Name="ID_FUNCIONARIO" ColumnName="ID_FUNCIONARIO" />
+          <ScalarProperty Name="DT_PONTO" ColumnName="DT_PONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_FUNCIONARIO">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.TB_FUNCIONARIO)">
+        <MappingFragment StoreEntitySet="TB_FUNCIONARIO">
+          <ScalarProperty Name="ID_FUNCIONARIO" ColumnName="ID_FUNCIONARIO" />
+          <ScalarProperty Name="NM_FUNCIONARIO" ColumnName="NM_FUNCIONARIO" />
+          <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

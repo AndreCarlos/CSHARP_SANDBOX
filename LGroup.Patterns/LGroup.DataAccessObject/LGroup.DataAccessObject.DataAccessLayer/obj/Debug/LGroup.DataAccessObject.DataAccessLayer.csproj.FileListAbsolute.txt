@@ -1,0 +1,12 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\LGroup.DataAccessObject.DataAccessLayer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\LGroup.DataAccessObject.DataAccessLayer.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\obj\Debug\LGroup.DataAccessObject.DataAccessLayer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\obj\Debug\LGroup.DataAccessObject.DataAccessLayer.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\LGroup.DataAccessObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\LGroup.DataAccessObject.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\obj\Debug\LGroup.DataAccessObject.DataAccessLayer.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\LGroup.DataAccessObject.DataAccessLayer.dll.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml

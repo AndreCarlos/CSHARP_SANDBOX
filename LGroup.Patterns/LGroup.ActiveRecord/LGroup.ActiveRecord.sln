@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGroup.ActiveRecord.Model", "LGroup.ActiveRecord.Model\LGroup.ActiveRecord.Model.csproj", "{13892F6F-3391-48C8-86A9-1919803A4D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGroup.ActiveRecord.Test", "LGroup.ActiveRecord.Test\LGroup.ActiveRecord.Test.csproj", "{EA547A5F-E894-47C3-92E2-A959F5536EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13892F6F-3391-48C8-86A9-1919803A4D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13892F6F-3391-48C8-86A9-1919803A4D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13892F6F-3391-48C8-86A9-1919803A4D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13892F6F-3391-48C8-86A9-1919803A4D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA547A5F-E894-47C3-92E2-A959F5536EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA547A5F-E894-47C3-92E2-A959F5536EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA547A5F-E894-47C3-92E2-A959F5536EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA547A5F-E894-47C3-92E2-A959F5536EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

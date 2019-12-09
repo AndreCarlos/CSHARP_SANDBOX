@@ -1,0 +1,51 @@
+﻿@model AmigoMOD
+
+@*Sempre que você utilizar um HELPER que termina com FOR
+    Serve para sincronizar o conteúdo do campo HTML com
+    Um determinado campo da classe*@
+@*Para poder resgatar os dados do Controller, pra sincronizar automaticamente no MODEL, temos que descarregar os campos da 
+    calsse no HTML*@
+@Html.HiddenFor(x => x.Codigo)
+<div>
+    @Html.LabelFor(x => x.Nome)
+    @Html.TextBoxFor(x => x.Nome)
+    @Html.ValidationMessageFor(x => x.Nome)
+</div>
+<div>
+    @Html.LabelFor(x => x.Email)
+    @Html.TextBoxFor(x => x.Email)
+    @Html.ValidationMessageFor(x => x.Email)
+</div>
+<div>
+    @Html.LabelFor(x => x.Telefone)
+    @Html.TextBoxFor(x => x.Telefone)
+    @Html.ValidationMessageFor(x => x.Telefone)
+</div>
+<div>
+    @Html.LabelFor(x => x.DataNascimento)
+    @*Sempre que no razor você quiser setar algum
+        Atributo que possui TRACINHO (-) tem que por
+        UNDERLINE(_)*@
+    @Html.TextBoxFor(x => x.DataNascimento, "{0:dd/MM/yyyy}" ,new { data_val_date = "Data Inválida" })
+    @Html.ValidationMessageFor(x => x.DataNascimento)
+</div>
+<div>
+    @Html.LabelFor(x => x.Sexo)
+    @Html.DropDownListFor(x => x.Sexo.Codigo, ViewBag.Sexos as SelectList)
+</div>
+@*Esse comando BR é um método de extensão, montamos
+    Um helper pra gerar QUEBRAS DE LINHA*@
+@Html.BR()
+@Html.BR()
+<div>
+    @*O Botaõ limpar só deve ficar visível para a página de cadastrar. Se for editar, NÃO EXIBE*@
+    @if (Request.Url.LocalPath.ToLower().Contains("cadastrar"))
+    {
+        @Html.INPUT("reset", "limpar", "limpar", "Limpar", "btn btn-primary")
+    }
+    @Html.INPUT("submit",
+                    "salvar",
+                    "salvar",
+                    "Salvar", 
+                    "btn btn-danger")
+</div>

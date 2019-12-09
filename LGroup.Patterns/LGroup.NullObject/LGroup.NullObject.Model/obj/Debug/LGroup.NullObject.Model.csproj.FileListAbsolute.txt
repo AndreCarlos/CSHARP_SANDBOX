@@ -1,0 +1,5 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.NullObject\LGroup.NullObject.Model\bin\Debug\LGroup.NullObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.NullObject\LGroup.NullObject.Model\bin\Debug\LGroup.NullObject.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.NullObject\LGroup.NullObject.Model\obj\Debug\LGroup.NullObject.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.NullObject\LGroup.NullObject.Model\obj\Debug\LGroup.NullObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.NullObject\LGroup.NullObject.Model\obj\Debug\LGroup.NullObject.Model.pdb

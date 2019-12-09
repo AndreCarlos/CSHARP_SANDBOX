@@ -1,0 +1,1 @@
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.ServicesModel.Tests\obj\Debug\MileageStats.ServicesModel.Tests.csproj.CoreCompileInputs.cache

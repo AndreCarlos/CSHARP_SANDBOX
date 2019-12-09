@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Cadastrar";
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+@*Quando criamos SECTIONS conseguimos criar blocos de código
+    Que serão levados da página filha pra página pai*@
+@section Styles{
+    <style>
+        .field-validation-error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+}
+@section Scripts{
+    <script>
+        //Mapeamos o LOAD da página com JQUERY
+        //Que já está importado na layout page
+        $(function () {
+            $("#Nome").focus();
+
+            //Mapeamos o click do botão limpar
+            $("#limpar").click(function () {
+                $(".field-validation-error").empty();
+                $("#Nome").focus();
+            });
+
+            //Mapeamos os BLUR (Deixar o campo) E-Mail, Perder o Foco
+            $("#Email").blur(function () {
+                
+                //armazenamos o e-mail digitado pelo usuário
+                //This é o campo corrente, o campo que disparou esse evento BLUR
+                var Email = $(this).val();
+
+                //Acionamos uma Action do Controller a partir do JavaScript
+                $.ajax({
+                    url:"/Amigo/ValidarEmail",
+                    data: { email: Email },
+                    success: function (ehValido) {
+                        if (ehValido == "True") 
+                            $("#salvar").attr("Disabled", "Disabled");
+                        else 
+                            $("#salvar").removeAttr("Disabled");
+                    },
+                    error: function (erro) {
+                        alert(erro.responseText);
+                    }
+                })
+
+            })
+        });
+    </script>
+}
+@using (Html.BeginForm("Cadastrar", "Amigo", FormMethod.Post))
+{
+    //Descarregamos dentro dessa página (BURRA) o bloco de Html que está dentro da PartialView
+    @Html.Partial("_PartialAmigo")
+}
+

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Titulo</title>
+
+    @* O ratchet foi criado pela mesma equipe do bootstrap 
+        é uma bilbioteca melhor adaptada para mobile 
+        deixa a tela com look-and-feel de APP (XAP, IPA, APK)*@
+    <link href="~/Content/ratchet.min.css" rel="stylesheet" />
+    @RenderSection("MeusStyles", false)
+</head>
+
+<body>
+    <header class="bar bar-nav">
+        <h1 class="title">@ViewBag.Titulo</h1>
+    </header>
+
+    <section>
+        <div>
+            @RenderBody()
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <nav class="bar bar-tab">
+                <a class="tab-item active" href="/Amigo/Listar">
+                    <span class="icon icon-home"></span>
+                    <span class="tab-label">Listar</span>
+                </a>
+                <a class="tab-item" href="/Amigo/Cadastrar">
+                    <span class="icon icon-person"></span>
+                    <span class="tab-label">Cadastrar</span>
+                </a>
+            </nav>
+        </div>
+    </footer>
+
+    @RenderSection("MeusScripts", false)
+</body>
+
+</html>

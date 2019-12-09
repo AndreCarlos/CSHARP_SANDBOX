@@ -1,0 +1,110 @@
+﻿@* Temos que interceptar os dados que vieram da action aqui dentro da view, temos que fazer o model binding
+    aqui na view para pegar a lista de amigos *@
+
+@using LGroup.SisAmigos.UI.Web.DataAccess
+
+@* quando fizermos o model binding colocar o M em minúsculo 
+    model -> pra receber os dados via model bindng ( a grosso modo) eh como se fosse um parametro
+    de entrada da tela) quem for chamar ela vai ter que passar pra dentro dela uma lista de amigos
+    MODEL -> para manipular os dados que entao vieram via MODEL BINDING
+    O nome mais popular eh tipagem da view (tela)
+    DICA DE OTIMIZAÇÃO:
+    Sempre que tiver List trocar por IEnumerable
+        List -> Leitura de Gravação
+    Gravação -> Somente Leitura
+*@
+@model IEnumerable<TB_AMIGO>
+
+<!--
+    Criamaos uma view para cada action
+    CSHTML siginifica que eh uma pagina em html que está sendo programada em C#
+    -->
+@{
+    //sempre que encontrarmos algum codigo que começa com @ significa
+    //que eh um codigo em C# == RAZOR
+    //Razor eh o nome gourmetizado para o codigo de servidor, pro nosso codigo em C#
+    //se tivermos uma pagina mestre(pai) MASTER PAGE, eh dentro do atributo layout que 
+    //passariamos o cominho dela
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>..:: SISAMIGOS 1.0 ::..</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>..:: Lista de Amigos ::..</h1>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <table>
+               <thead>
+                   <tr>
+                       <th>Excluir</th>
+                       <th>Editar</th>
+                       <th>Código</th>
+                       <th>Nome</th>
+                       <th>eMail</th>
+                       <th>Telefone</th>
+                       <th>Data de Nascimento</th>
+                   </tr>
+               </thead>
+                <tbody>
+                    @* Fizemos um looping para percorrer todos os registros que vieram do BD via Model Binding 
+                        Cada linha da tabela vai virar uma <TR> = Linha do Grid 
+                        O MODEL em maiusculo eh um alias (referencia) pra pegar os dados que chegaram
+                        lá em cima ^^^^^^^^^^^ *@
+                    @foreach (var amigo in Model)
+                    {
+                        <tr>
+                            <td></td>
+                            <td>
+                                @*  essa eh a rota (forma de navegar padrao)
+                                    podemos mandar no maximo 3 parametros
+                                    {controller}/{action}/{id} = Numero que queremos levar para ACTION 
+                                *@
+                                <a href="/Amigo/Editar/@amigo.ID_AMIGO">
+                                    Editar
+                                </a>
+                            </td>
+                            <td>@amigo.ID_AMIGO</td>
+                            <td>@amigo.NM_AMIGO</td>
+                            <td>@amigo.DS_EMAIL</td>
+                            <td>@amigo.NR_TELEFONE</td>
+                            <td>@amigo.DT_NASCIMENTO.ToShortDateString()</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">Total : @Model.Count()</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; Todos os Direitos Reservados ao <strong>LGROUP</strong></p>
+        </div>
+    </footer>
+    
+    @* So vamos exibir o bloco de script na pagina se tiver mensagens dentro do tempdata *@
+    @if (TempData["SUCESSO"] != null){
+    <script>
+        //Exibimos uma mensagem de sucesso que veio lá da tela de cadastrar (JS)
+        //Assim que voce termina de ler o TEMPDATA ele se AUTO REMOVE (AUTO LIMPA)
+        //Por isso o nome TEMPDATA pois armazenamos dados temporários que não vao ficar pra sempre na memória
+        alert('@TempData["SUCESSO"]');
+    </script>
+    }
+</body>
+</html>

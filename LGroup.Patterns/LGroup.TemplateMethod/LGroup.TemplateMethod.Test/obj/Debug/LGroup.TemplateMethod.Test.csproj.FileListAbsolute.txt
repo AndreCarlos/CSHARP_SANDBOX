@@ -1,0 +1,10 @@
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\obj\Debug\LGroup.TemplateMethod.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\obj\Debug\LGroup.TemplateMethod.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Test.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Business.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Business.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\bin\Debug\LGroup.TemplateMethod.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\obj\Debug\LGroup.TemplateMethod.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Test\obj\Debug\LGroup.TemplateMethod.Test.pdb

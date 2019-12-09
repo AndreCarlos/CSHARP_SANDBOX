@@ -1,0 +1,4 @@
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Domain\obj\Debug\MileageStats.Domain.csprojAssemblyReference.cache
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Domain\obj\Debug\MileageStats.Domain.Properties.Resources.resources
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Domain\obj\Debug\MileageStats.Domain.csproj.GenerateResource.cache
+E:\MS-SILK PROJECT GUIDANCE\MileageStats\MileageStats.Domain\obj\Debug\MileageStats.Domain.csproj.CoreCompileInputs.cache

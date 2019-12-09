@@ -1,0 +1,14 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.View.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.View.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.View.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.View.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\bin\Debug\LGroup.MVP.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVP\LGroup.MVP.View\obj\Debug\LGroup.MVP.View.pdb

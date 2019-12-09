@@ -1,0 +1,16 @@
+﻿@*
+    Uma Partial View ou Partial Page é um componente do MVC 
+    Onde criamos um bloco de HTML customizado, lembra muuito um ASCX um web control no Web Forms
+    Estamos criando o nosso componente personalizado de exibição de mensagens de sucesso
+    Lembra um INCLUDE lá no PHP, ASP 3.0
+*@
+
+<div class="alert alert-info alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+    @* O tempdata se auto limpa uma vez que voce exibiu na tela o conteudo dele, ele se auto remove, não precisa esquentar
+        a cabaça com memoria RAM
+    *@
+    <strong>@TempData["Sucesso"]</strong>
+</div>
+

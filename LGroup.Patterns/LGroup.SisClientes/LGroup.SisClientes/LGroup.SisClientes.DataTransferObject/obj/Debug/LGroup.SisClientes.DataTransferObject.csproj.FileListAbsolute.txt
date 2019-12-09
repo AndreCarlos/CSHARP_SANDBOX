@@ -1,0 +1,5 @@
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataTransferObject\bin\Debug\LGroup.SisClientes.DataTransferObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataTransferObject\bin\Debug\LGroup.SisClientes.DataTransferObject.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataTransferObject\obj\Debug\LGroup.SisClientes.DataTransferObject.csprojResolveAssemblyReference.cache
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataTransferObject\obj\Debug\LGroup.SisClientes.DataTransferObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataTransferObject\obj\Debug\LGroup.SisClientes.DataTransferObject.pdb

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90880a9abfbb4328971f71e0a83fa747" Name="Diagram1">
+        <EntityTypeShape EntityType="EFModel.TB_AMIGO" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EFModel.TB_SEXO" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="EFModel.FK_TB_AMIGO_TB_SEXO" ManuallyRouted="false" />
+      </Diagram>
+      <Diagram DiagramId="1f60c50fb8394e788d462e013d4f1af2" Name="Tabelas Secundarias" >
+        <EntityTypeShape EntityType="EFModel.TB_USUARIO" Width="2" PointX="2.125" PointY="0.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

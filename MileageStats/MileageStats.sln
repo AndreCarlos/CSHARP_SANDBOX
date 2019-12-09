@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56D18520-ABC2-494C-BC80-DA12CE74AF3C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{6B76E4EE-F3B6-4337-9795-5BAEA46CECC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTier", "DataTier", "{80DB0069-8CDA-45EA-8535-52DD164DB24F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{F1AB27BD-3126-423E-B6F1-322738593053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Web", "MileageStats.Web\MileageStats.Web.csproj", "{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1FE872B-A1B2-4864-A753-81493F72A19C} = {D1FE872B-A1B2-4864-A753-81493F72A19C}
+		{A295CB97-24EB-4DE9-A596-C2231F51A448} = {A295CB97-24EB-4DE9-A596-C2231F51A448}
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF} = {F470D6DA-A998-4047-B7DA-4246E280A5FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Data.SqlCe", "MileageStats.Data.SqlCe\MileageStats.Data.SqlCe.csproj", "{A295CB97-24EB-4DE9-A596-C2231F51A448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Data", "MileageStats.Data\MileageStats.Data.csproj", "{F470D6DA-A998-4047-B7DA-4246E280A5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Data.SqlCe.Tests", "MileageStats.Data.SqlCe.Tests\MileageStats.Data.SqlCe.Tests.csproj", "{E165A10D-12AE-4141-9248-404E12D0D8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Web.Tests", "MileageStats.Web.Tests\MileageStats.Web.Tests.csproj", "{75BAD69E-CFDD-4574-A259-83C76FA7A70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Model", "MileageStats.Model\MileageStats.Model.csproj", "{D1FE872B-A1B2-4864-A753-81493F72A19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Services.Tests", "Mileagestats.Services.Tests\MileageStats.Services.Tests.csproj", "{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.ServicesModel.Tests", "MileageStats.ServicesModel.Tests\MileageStats.ServicesModel.Tests.csproj", "{8C4701F3-8671-401B-A9A7-7432CED6AF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MileageStats.Domain", "MileageStats.Domain\MileageStats.Domain.csproj", "{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A295CB97-24EB-4DE9-A596-C2231F51A448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A295CB97-24EB-4DE9-A596-C2231F51A448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A295CB97-24EB-4DE9-A596-C2231F51A448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A295CB97-24EB-4DE9-A596-C2231F51A448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E165A10D-12AE-4141-9248-404E12D0D8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E165A10D-12AE-4141-9248-404E12D0D8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E165A10D-12AE-4141-9248-404E12D0D8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E165A10D-12AE-4141-9248-404E12D0D8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75BAD69E-CFDD-4574-A259-83C76FA7A70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BAD69E-CFDD-4574-A259-83C76FA7A70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75BAD69E-CFDD-4574-A259-83C76FA7A70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BAD69E-CFDD-4574-A259-83C76FA7A70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FE872B-A1B2-4864-A753-81493F72A19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FE872B-A1B2-4864-A753-81493F72A19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FE872B-A1B2-4864-A753-81493F72A19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FE872B-A1B2-4864-A753-81493F72A19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4701F3-8671-401B-A9A7-7432CED6AF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4701F3-8671-401B-A9A7-7432CED6AF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4701F3-8671-401B-A9A7-7432CED6AF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4701F3-8671-401B-A9A7-7432CED6AF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A295CB97-24EB-4DE9-A596-C2231F51A448} = {80DB0069-8CDA-45EA-8535-52DD164DB24F}
+		{F470D6DA-A998-4047-B7DA-4246E280A5FF} = {80DB0069-8CDA-45EA-8535-52DD164DB24F}
+		{E165A10D-12AE-4141-9248-404E12D0D8A4} = {6B76E4EE-F3B6-4337-9795-5BAEA46CECC6}
+		{75BAD69E-CFDD-4574-A259-83C76FA7A70E} = {6B76E4EE-F3B6-4337-9795-5BAEA46CECC6}
+		{D1FE872B-A1B2-4864-A753-81493F72A19C} = {80DB0069-8CDA-45EA-8535-52DD164DB24F}
+		{E150A29B-CB34-4AE1-B12E-3ACEE62F26C4} = {6B76E4EE-F3B6-4337-9795-5BAEA46CECC6}
+		{8C4701F3-8671-401B-A9A7-7432CED6AF2D} = {6B76E4EE-F3B6-4337-9795-5BAEA46CECC6}
+		{A90A6E16-E9F0-49DC-88B2-82882DF86DC3} = {F1AB27BD-3126-423E-B6F1-322738593053}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40F16FDD-4208-4487-8927-DBE655F56986}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MileageStats.vsmdi
+	EndGlobalSection
+EndGlobal

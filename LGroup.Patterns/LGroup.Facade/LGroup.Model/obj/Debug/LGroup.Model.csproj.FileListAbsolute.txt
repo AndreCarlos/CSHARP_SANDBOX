@@ -1,0 +1,5 @@
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Model\bin\Debug\LGroup.Model.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Model\bin\Debug\LGroup.Model.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Model\obj\Debug\LGroup.Model.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Model\obj\Debug\LGroup.Model.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Model\obj\Debug\LGroup.Model.pdb

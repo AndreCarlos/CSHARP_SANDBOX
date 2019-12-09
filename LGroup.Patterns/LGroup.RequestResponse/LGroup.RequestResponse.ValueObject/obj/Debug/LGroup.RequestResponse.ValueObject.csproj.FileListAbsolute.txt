@@ -1,0 +1,5 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.ValueObject\bin\Debug\LGroup.RequestResponse.ValueObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.ValueObject\bin\Debug\LGroup.RequestResponse.ValueObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.ValueObject\obj\Debug\LGroup.RequestResponse.ValueObject.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.ValueObject\obj\Debug\LGroup.RequestResponse.ValueObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.ValueObject\obj\Debug\LGroup.RequestResponse.ValueObject.pdb

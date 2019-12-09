@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AmigoMOD>
+
+@{
+    ViewBag.Title = "Listar";
+
+    //É aqui no layout que definimos a página pai
+    //O conteúdo dessa página vai ser igual ao da página PAI
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+<fieldset>
+    <legend>Informações dos Amigos</legend>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Excluir</th>
+                <th>Editar</th>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>E-Mail</th>
+                <th>Telefone</th>
+                <th>Data de Nascimento</th>
+                <th>Sexo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var amigo in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.LINKWITHIMAGE("/Amigo/Excluir/" + amigo.Codigo, Url.Content("~/Content/Images/excluir.png"))
+                    </td>
+                    <td><a href="/Amigo/Editar/@amigo.Codigo/@amigo.Sexo.Codigo"><img src="~/Content/Images/editar.png" /></a></td>
+                    <td>@amigo.Codigo</td>
+                    <td>@amigo.Nome</td>
+                    <td>@amigo.Email</td>
+                    <td>@amigo.Telefone</td>
+                    <td>@amigo.DataNascimento.ToShortDateString()</td>
+                    <td>@amigo.Sexo.Descricao</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</fieldset>
+

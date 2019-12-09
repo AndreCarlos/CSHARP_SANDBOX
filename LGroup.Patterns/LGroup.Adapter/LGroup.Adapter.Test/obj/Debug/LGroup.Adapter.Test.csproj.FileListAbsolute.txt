@@ -1,0 +1,28 @@
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Test.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Test.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Business.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\nunit.framework.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\UOL.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\BankOfAmerica.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\JpMorgan.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Business.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\nunit.framework.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Test.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Test.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Business.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Model.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\nunit.framework.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\BankOfAmerica.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\JpMorgan.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\UOL.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Business.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\LGroup.Adapter.Model.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\bin\Debug\nunit.framework.xml
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.csprojResolveAssemblyReference.cache
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Test\obj\Debug\LGroup.Adapter.Test.pdb

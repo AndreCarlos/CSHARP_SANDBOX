@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AGENDAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TB_AMIGO">
+    <Key>
+      <PropertyRef Name="ID_AMIGO" />
+    </Key>
+    <Property Name="ID_AMIGO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NM_AMIGO" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="DS_EMAIL" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="NR_TELEFONE" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="DT_NASCIMENTO" Type="date" Nullable="false" />
+    <Property Name="ID_SEXO" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TB_SEXO">
+    <Key>
+      <PropertyRef Name="ID_SEXO" />
+    </Key>
+    <Property Name="ID_SEXO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DS_SEXO" Type="varchar" MaxLength="9" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TB_AMIGO_TB_SEXO">
+    <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+    <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_SEXO">
+        <PropertyRef Name="ID_SEXO" />
+      </Principal>
+      <Dependent Role="TB_AMIGO">
+        <PropertyRef Name="ID_SEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AGENDAModelStoreContainer">
+    <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+      <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+      <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

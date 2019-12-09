@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="37ef260f-4354-47c1-8ba0-eefba695a853" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:12345/Api/LGroup" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LGroup.xsd" MetadataType="Schema" ID="17866b01-0066-4553-81f1-f5533262dd3e" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?xsd=xsd3" />
+    <MetadataFile FileName="LGroup1.xsd" MetadataType="Schema" ID="3535fe68-74a1-4ab6-a29c-31f2f73a3226" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?xsd=xsd2" />
+    <MetadataFile FileName="LGroup2.xsd" MetadataType="Schema" ID="1af9fb63-b993-452a-8f6e-4dc5f391f036" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?xsd=xsd1" />
+    <MetadataFile FileName="LGroup3.xsd" MetadataType="Schema" ID="22bc56ae-5451-4885-bd66-63b7b7432f48" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?xsd=xsd0" />
+    <MetadataFile FileName="LGroup4.xsd" MetadataType="Schema" ID="e3362055-9e5a-4ed8-9397-507329932f20" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?xsd=xsd4" />
+    <MetadataFile FileName="LGroup.disco" MetadataType="Disco" ID="28f69f7f-665d-4fb0-bd05-6e12aaadfca9" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?disco" />
+    <MetadataFile FileName="ClienteService.wsdl" MetadataType="Wsdl" ID="02ca6b9e-93ee-437e-9741-7ded20263560" SourceId="1" SourceUrl="http://localhost:12345/Api/LGroup?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

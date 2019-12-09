@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED7C8B4E-16C3-405A-9079-26D6CF8EF3AD}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MileageStats.Web</RootNamespace>
+    <AssemblyName>MileageStats.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <NoWarn>
+    </NoWarn>
+    <CodeAnalysisRuleSet>..\MinimumRecommendedRules_ProjectSpecific.ruleset</CodeAnalysisRuleSet>
+    <ExcludeApp_Data>false</ExcludeApp_Data>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+    <DeployIisAppPath>Default Web Site/MileageStats</DeployIisAppPath>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <NoWarn>
+    </NoWarn>
+    <CodeAnalysisRuleSet>..\MinimumRecommendedRules_ProjectSpecific.ruleset</CodeAnalysisRuleSet>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetOpenAuth">
+      <HintPath>..\packages\DotNetOpenAuth.3.4.6.10357\lib\DotNetOpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\Unity.2.0\lib\20\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\packages\Unity.2.0\lib\20\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\packages\Unity.2.0\lib\20\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\packages\Unity.2.0\lib\20\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
+      <HintPath>..\packages\Unity.2.0\lib\20\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentication\UserAuthenticationTicketBuilder.cs" />
+    <Compile Include="ControllerExtensions.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Authentication\DefaultFormsAuthentication.cs" />
+    <Compile Include="Authentication\DefaultOpenIdRelyingParty.cs" />
+    <Compile Include="Controllers\AuthorizedController.cs" />
+    <Compile Include="Controllers\ChartController.cs" />
+    <Compile Include="Controllers\FillupController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Authentication\IFormsAuthentication.cs" />
+    <Compile Include="Authentication\IOpenIdRelyingParty.cs" />
+    <Compile Include="Controllers\MockAuthenticatorController.cs" />
+    <Compile Include="Authentication\OutgoingRequestActionResult.cs" />
+    <Compile Include="Controllers\ReminderController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\VehicleController.cs" />
+    <Compile Include="Authentication\LocalFakeRelyingParty.cs" />
+    <Compile Include="Helpers\VehicleHelper.cs" />
+    <Compile Include="IdentityExtensions.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DashboardViewModel.cs" />
+    <Compile Include="Models\FillupDetailsViewModel.cs" />
+    <Compile Include="Models\FillupAddViewModel.cs" />
+    <Compile Include="Models\FillupEntryFormModel.cs" />
+    <Compile Include="Models\JsonFillupViewModel.cs" />
+    <Compile Include="Models\JsonRemindersViewModel.cs" />
+    <Compile Include="Models\JsonReminderViewModel.cs" />
+    <Compile Include="Models\JsonStatisticsViewModel.cs" />
+    <Compile Include="Models\JsonVehicleViewModel.cs" />
+    <Compile Include="Models\MileageStatsIdentity.cs" />
+    <Compile Include="Models\OverdueReminderViewModel.cs" />
+    <Compile Include="Models\JsonRemindersOverdueListViewModel.cs" />
+    <Compile Include="Models\ReminderAddViewModel.cs" />
+    <Compile Include="Models\ReminderDetailsViewModel.cs" />
+    <Compile Include="Models\ReminderFormModel.cs" />
+    <Compile Include="Models\SelectedItemList.cs" />
+    <Compile Include="Models\VehicleAddViewModel.cs" />
+    <Compile Include="Models\VehicleDetailsViewModel.cs" />
+    <Compile Include="Models\UpdateVehicleSortOrderViewModel.cs" />
+    <Compile Include="Models\VehicleFormModel.cs" />
+    <Compile Include="Models\VehicleListViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityContainerFactory.cs" />
+    <Compile Include="UnityDependencyResolver.cs" />
+    <Compile Include="UnityExtensions\HttpContextPerRequestStore.cs" />
+    <Compile Include="UnityExtensions\IPerRequestStore.cs" />
+    <Compile Include="UnityExtensions\UnityHttpContextPerRequestLifetimeManager.cs" />
+    <Compile Include="UnityExtensions\UnityPerRequestLifetimeManager.cs" />
+    <Compile Include="UserServicesExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\PublishPlaceholder.txt" />
+    <Content Include="Content\account-pane.jpg" />
+    <Content Include="Content\add-vehicle-pane.jpg" />
+    <Content Include="Content\application-background.png" />
+    <Content Include="Content\application-gradient.png" />
+    <Content Include="Content\application-html5.png" />
+    <Content Include="Content\application-icon.png" />
+    <Content Include="Content\application-login.png" />
+    <Content Include="Content\application-openid.png" />
+    <Content Include="Content\application-signin-button.png" />
+    <Content Include="Content\application-signin-text.png" />
+    <Content Include="Content\application-signin.png" />
+    <Content Include="Content\application-tagline.jpg" />
+    <Content Include="Content\application-title.png" />
+    <Content Include="Content\application-top.png" />
+    <Content Include="Content\background.jpg" />
+    <Content Include="Content\button-add.png" />
+    <Content Include="Content\button-delete.png" />
+    <Content Include="Content\button-edit.png" />
+    <Content Include="Content\button-fulfill.png" />
+    <Content Include="Content\button-openid.png" />
+    <Content Include="Content\button-save.png" />
+    <Content Include="Content\button-small.png" />
+    <Content Include="Content\button-yahoo.png" />
+    <Content Include="Content\command-active.jpg" />
+    <Content Include="Content\command-background.jpg" />
+    <Content Include="Content\command-details.png" />
+    <Content Include="Content\command-fillups.png" />
+    <Content Include="Content\command-glass.png" />
+    <Content Include="Content\command-hover.jpg" />
+    <Content Include="Content\command-reminders.png" />
+    <Content Include="Content\details-pane.jpg" />
+    <Content Include="Content\error-background.png" />
+    <Content Include="Content\error-dashboard.png" />
+    <Content Include="Content\error-gradient.png" />
+    <Content Include="Content\error-homepage.png" />
+    <Content Include="Content\error-tagline.jpg" />
+    <Content Include="Content\fillups-pane.jpg" />
+    <Content Include="Content\graph-pane.jpg" />
+    <Content Include="Content\myopenid.png" />
+    <Content Include="Content\overlay-1.ico" />
+    <Content Include="Content\overlay-2.ico" />
+    <Content Include="Content\overlay-3.ico" />
+    <Content Include="Content\overlay-3plus.ico" />
+    <Content Include="Content\quick-text.png" />
+    <Content Include="Content\static.css" />
+    <Content Include="Content\info-background.png" />
+    <Content Include="Content\jquery.jqplot.min.css" />
+    <Content Include="Content\nav-active.png" />
+    <Content Include="Content\nav-background.png" />
+    <Content Include="Content\nav-toast.png" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\reminders-pane.jpg" />
+    <Content Include="Content\stylesheet.css" />
+    <Content Include="Content\summary-pane.jpg" />
+    <Content Include="Content\tile-image.png" />
+    <Content Include="Content\title-background-nodrag.png" />
+    <Content Include="Content\title-background.png" />
+    <Content Include="Content\title-glass.png" />
+    <Content Include="Content\title-hover.png" />
+    <Content Include="Content\trans_pixel.gif" />
+    <Content Include="Content\vehicle.png" />
+    <Content Include="Content\video-poster.png" />
+    <Content Include="Content\yahoo.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="GenericError.htm" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\Debug\mstats.vehicle-dropdown-monitor.js" />
+    <Content Include="Scripts\Debug\mstats.vehicle-charts.js" />
+    <Content Include="Scripts\MileageStats.min.js" />
+    <Content Include="Scripts\Debug\mstats.fillups.js" />
+    <Content Include="Scripts\Debug\mstats.header.js" />
+    <Content Include="Scripts\Debug\mstats.imminent-reminders.js" />
+    <Content Include="Scripts\Debug\mstats.info-pane.js" />
+    <Content Include="Scripts\Debug\mstats.reminders.js" />
+    <Content Include="Scripts\Debug\mstats.statistics.js" />
+    <Content Include="Scripts\Debug\mstats.status.js" />
+    <Content Include="Scripts\Debug\mstats.summary.js" />
+    <Content Include="Scripts\Debug\mstats.validation.js" />
+    <Content Include="Scripts\Debug\mstats.vehicle-details.js" />
+    <Content Include="Scripts\Debug\mstats.vehicle.js" />
+    <Content Include="Scripts\Debug\mstats.tile.js" />
+    <Content Include="Scripts\tests\mstats.vehicle-dropdown-monitor.tests.js" />
+    <Content Include="Scripts\tests\mstats.fillups.tests.js" />
+    <Content Include="Scripts\tests\mstats.header.tests.js" />
+    <Content Include="Scripts\tests\mstats.imminent-reminders.tests.js" />
+    <Content Include="Scripts\tests\mstats.info-pane.tests.js" />
+    <Content Include="Scripts\tests\mstats.registration.tests.js" />
+    <Content Include="Scripts\excanvas.min.js" />
+    <Content Include="Scripts\jqplot.canvasAxisTickRenderer.min.js" />
+    <Content Include="Scripts\jqplot.canvasTextRenderer.min.js" />
+    <Content Include="Scripts\jqplot.cursor.min.js" />
+    <Content Include="Scripts\jqplot.dateAxisRenderer.min.js" />
+    <Content Include="Scripts\jquery.jqplot.min.js" />
+    <Content Include="Scripts\Debug\mileagestats.js" />
+    <Content Include="Scripts\Debug\mstats.data.js" />
+    <Content Include="Scripts\Debug\mstats.layout-manager.js" />
+    <Content Include="Scripts\Debug\mstats.pinnedsite.js" />
+    <Content Include="Scripts\Debug\mstats.pubsub.js" />
+    <Content Include="Scripts\Debug\mstats.registration.js" />
+    <Content Include="Scripts\Debug\mstats.utils.js" />
+    <Content Include="Scripts\Debug\mstats.events.js" />
+    <Content Include="Scripts\Debug\mstats.vehicle-list.js" />
+    <Content Include="Scripts\Debug\mstats.charts.js" />
+    <Content Include="Scripts\tests\jquery.simulate.js" />
+    <Content Include="Scripts\tests\mstats.charts.tests.js" />
+    <Content Include="Scripts\tests\mstats.pinnedsite.tests.js" />
+    <Content Include="Scripts\tests\mstats.pubsub.tests.js" />
+    <Content Include="Scripts\tests\mstats.reminders.tests.js" />
+    <Content Include="Scripts\tests\mstats.statistics.tests.js" />
+    <Content Include="Scripts\tests\mstats.status.tests.js" />
+    <Content Include="Scripts\tests\mstats.tile.tests.js" />
+    <Content Include="Scripts\tests\mstats.vehicle-details.tests.js" />
+    <Content Include="Scripts\tests\mstats.vehicle.tests.js" />
+    <Content Include="Scripts\tests\mstats.summary.tests.js" />
+    <Content Include="Scripts\tests\mstats.utils.tests.js" />
+    <Content Include="Scripts\tests\mstats.data.tests.js" />
+    <Content Include="Scripts\tests\mstats.vehicle-list.tests.js" />
+    <Content Include="Scripts\tests\qunit.css" />
+    <Content Include="Scripts\tests\qunit.js" />
+    <Content Include="Scripts\tests\test-utilities.js" />
+    <Content Include="Scripts\tests\tests.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MileageStats.Domain\MileageStats.Domain.csproj">
+      <Project>{A90A6E16-E9F0-49DC-88B2-82882DF86DC3}</Project>
+      <Name>MileageStats.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MileageStats.Data.SqlCe\MileageStats.Data.SqlCe.csproj">
+      <Project>{A295CB97-24EB-4DE9-A596-C2231F51A448}</Project>
+      <Name>MileageStats.Data.SqlCe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MileageStats.Data\MileageStats.Data.csproj">
+      <Project>{F470D6DA-A998-4047-B7DA-4246E280A5FF}</Project>
+      <Name>MileageStats.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MileageStats.Model\MileageStats.Model.csproj">
+      <Project>{D1FE872B-A1B2-4864-A753-81493F72A19C}</Project>
+      <Name>MileageStats.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unity.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Vehicle\Add.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Auth\SignIn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Profile\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Fillup\Add.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Vehicle\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_FillupList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_VehicleForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Vehicle\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_ReminderForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Reminder\Add.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_ReminderList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MockAuthenticator\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_VehicleList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_FillupForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_ProfileForm.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Fillup\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_FillupDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_ReminderDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Reminder\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Vehicle\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Reminder\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Fillup\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Chart\TotalDistance.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Chart\TotalCost.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Chart\FuelEfficiency.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateFleetStatistics.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateVehicleList.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateImminentReminders.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Chart\_ChartNavigation.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateVehicleDetails.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateReminders.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_TemplateFillups.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unity.debug.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>23495</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/MileageStats.Web</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

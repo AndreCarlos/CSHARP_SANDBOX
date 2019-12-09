@@ -1,0 +1,46 @@
+﻿@model IEnumerable<LGroup.SisClientes.UI.Web.ViewModels.ClienteViewModel>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Listar</title>
+</head>
+<body>
+
+    <table class="table">
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                E-Mail
+            </th>
+            <th>
+                Telefone
+            </th>
+        </tr>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>
+                    @cliente.Codigo
+                </td>
+                <td>
+                    @cliente.Nome
+                </td>
+                <td>
+                    @cliente.Email
+                </td>
+                <td>
+                    @cliente.Telefone
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

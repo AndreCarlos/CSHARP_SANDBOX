@@ -1,0 +1,11 @@
+﻿
+    .field-validation-error {
+        color: red;
+        font-size: 9px;
+        font-weight: bold;
+        background-image: url('../../Content/images/error.png');
+        background-repeat: no-repeat;
+        padding-left: 18px;
+        @* novidade dobject-fit CSS3 conseguimos redirecionar a imagem *@
+        background-size: contain;
+    }

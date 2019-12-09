@@ -1,0 +1,5 @@
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LayerSuperType\LGroup.LayerSuperType.Model\bin\Debug\LGroup.LayerSuperType.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LayerSuperType\LGroup.LayerSuperType.Model\bin\Debug\LGroup.LayerSuperType.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LayerSuperType\LGroup.LayerSuperType.Model\obj\Debug\LGroup.LayerSuperType.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LayerSuperType\LGroup.LayerSuperType.Model\obj\Debug\LGroup.LayerSuperType.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LayerSuperType\LGroup.LayerSuperType.Model\obj\Debug\LGroup.LayerSuperType.Model.csprojResolveAssemblyReference.cache

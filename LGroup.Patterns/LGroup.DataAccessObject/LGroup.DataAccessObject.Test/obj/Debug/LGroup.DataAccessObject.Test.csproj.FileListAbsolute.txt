@@ -1,0 +1,14 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.Test.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.DataAccessLayer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.DataAccessLayer.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\obj\Debug\LGroup.DataAccessObject.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\obj\Debug\LGroup.DataAccessObject.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\obj\Debug\LGroup.DataAccessObject.Test.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\LGroup.DataAccessObject.Test.dll.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.DataAccessObject\LGroup.DataAccessObject.Test\bin\Debug\EntityFramework.SqlServer.xml

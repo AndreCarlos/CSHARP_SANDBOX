@@ -1,0 +1,10 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\LGroup.ActiveRecord.Model.dll.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\LGroup.ActiveRecord.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\LGroup.ActiveRecord.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\obj\Debug\LGroup.ActiveRecord.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\obj\Debug\LGroup.ActiveRecord.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.ActiveRecord\LGroup.ActiveRecord.Model\obj\Debug\LGroup.ActiveRecord.Model.pdb

@@ -1,0 +1,22 @@
+c:\users\andre carlos\documents\visual studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\LGroup.SysAmigos.UI.Windows.exe.config
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.Properties.Resources.resources
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.csproj.GenerateResource.Cache
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.Modules.Amigos.frmCadastrar.resources
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\LGroup.SysAmigos.UI.Windows.exe
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\LGroup.SysAmigos.UI.Windows.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.exe
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\EntityFramework.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\EntityFramework.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.Modules.Amigos.frmListar.resources
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.Modules.Amigos.Operadores_Consulta.frmListar.resources
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.Modules.Amigos.frmEditar.resources
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\LGroup.SysAmigos.UI.Windows.exe.config
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.exe
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.pdb
+F:\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\bin\Debug\LGroup.SysAmigos.UI.Windows.exe.config
+F:\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.exe
+F:\Visual Studio 2013\Projects\LGroup.EntityFramework.Course\LGroup.SysAmigos.UI.Windows\LGroup.SysAmigos.UI.Windows\obj\Debug\LGroup.SysAmigos.UI.Windows.pdb

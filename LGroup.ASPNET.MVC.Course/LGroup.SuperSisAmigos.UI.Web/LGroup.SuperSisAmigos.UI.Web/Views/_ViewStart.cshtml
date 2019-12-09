@@ -1,0 +1,16 @@
+﻿@* 
+    Una viewstart é a primeira página a ser executada
+    É uma página interna, faz parte do PIPELINE (execução de um projeto em MVC). É nela que settamos a página pai
+    Para nao ter que abrir página a página e settar a página pai, definimos a página pai uma única vez dentro da 
+    viewstart
+
+    Internamente:
+        VIEWSTART >> LAYOUT PAGE >> CONTENT PAGE (FILHA)
+*@
+
+
+@{
+    @* A diretiva LAYOUT serve para passar o caminho da pagina pai. Eh nesse momneto que ela foi adotada (viusal da pagina pai)  *@
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+
+}

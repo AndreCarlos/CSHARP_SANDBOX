@@ -1,0 +1,62 @@
+﻿@* O asp,net MVC por padrão já é projetoado para buscar 
+    uma página generica de erros, qualquer erro que der no projeto ele tenta acessar 
+    essa página que fica dentro da pasta 
+    SHARED -> ERROR.CSHTML
+
+    Essa pagina genérica de erros é colocada dentro da página que está aberta pelo 
+    usuário  naquele momento
+*@
+
+@* Fizemos um model binding para receber os dados do erro
+
+    SÃO 3 ELEMENTOS NECESSÁRIOS PARA GERENCIAR OS ERROS GENÉRICOS:
+    HANDLEERROR = Para intercepetar os erros nos controller
+    HANDLEERRORINFO = Para visualizar as informações de erro
+    ERROR.CSHTML = Página que vai ser exibida para o usuário
+    *@
+@model HandleErrorInfo
+
+@{
+    ViewBag.Titulo = "Página de Erro Genérica (GLOBAL)";
+}
+
+<h2>Ocorreu um Erro na Aplicação!</h2>
+
+<table>
+    <tr>
+        @*Pegamos o IP  da máquina do usuário. Se tiver local é o IP de LOOPBACK
+            Se for IPV4 é 127.0.0.1
+            Se for IPV6 é ::1
+            Quando publicar em produção ou em alguma hospedagem vai  mostrar
+            o IP externo (IP VERDADEIRO)
+        *@
+        <td>IP: @Request.UserHostAddress</td>
+    </tr>
+    <tr>
+        <td>Data e Hora: @DateTime.Now</td>
+    </tr>
+    <tr>
+        <td>Nome do Controller: @Model.ControllerName</td>
+    </tr>
+    <tr>
+        <td>Nome da Action: @Model.ActionName</td>
+    </tr>
+    <tr>
+        <td>Mensagem de Erro: @Model.Exception.Message</td>
+    </tr>
+    <tr>
+        <td>Para mais detalhes ou dúvidas entre em contato com o adminstrador do sistema ou suporte </td>
+    </tr>
+</table>
+<!--<input type="button" id="voltar" name="voltar" value="Voltar"/>-->
+@Html.Button("voltar", "btn btn-danger btn-sm", "button", "voltar")
+
+@section MeusScripts{
+    <script>
+    $("#voltar").click(function() {
+    ///Nao importa de onde  o usuario veio (a pagina que ele estava)
+    ///Mandamos ele de volta para lá
+    window.history.back();
+    });
+    </script>
+}

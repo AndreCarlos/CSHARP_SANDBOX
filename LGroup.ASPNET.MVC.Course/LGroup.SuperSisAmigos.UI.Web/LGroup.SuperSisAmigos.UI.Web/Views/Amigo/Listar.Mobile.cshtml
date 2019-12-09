@@ -1,0 +1,35 @@
+﻿
+@{
+    
+    ViewBag.Titulo = "Lista de Amigos";
+}
+
+@* Desde o mvc 4 temos um recurso de view mobile (telas mobile)
+    Conseguimos criar 1 tela melhor adaptada para mobile, conseguimos criar 2 versões da mesma tela
+    DESKTOP (pADRAO) >> Listar.cshtml
+    MOBILE (CUSTOMIZADA) >> Listar.Mobile.cshtml
+    
+    O próprio ASP.NET internamente já verifica o dispositivo e abre a tela especifica
+    Só renomear a página para .Mobile
+*@
+
+<ul class="table-view" style="margin-top:45px;">
+    <li class="table-view-cell">
+        <a class="navigate-right">
+            <span class="badge">5</span>
+            Fulano dos Santos
+        </a>
+    </li>
+    <li class="table-view-cell">
+        <a class="navigate-right">
+            <span class="badge">5</span>
+            Beltrano de Souza
+        </a>
+    </li>
+    <li class="table-view-cell">
+        <a class="navigate-right">
+            <span class="badge">5</span>
+            Ciclano da Silva
+        </a>
+    </li>
+</ul>

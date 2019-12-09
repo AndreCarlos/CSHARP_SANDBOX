@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AGENDAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AGENDAEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_AMIGO" EntityType="AGENDAModel.TB_AMIGO" />
+    <EntitySet Name="TB_SEXO" EntityType="AGENDAModel.TB_SEXO" />
+    <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="AGENDAModel.FK_TB_AMIGO_TB_SEXO">
+      <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+      <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TB_AMIGO">
+    <Key>
+      <PropertyRef Name="ID_AMIGO" />
+    </Key>
+    <Property Name="ID_AMIGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NM_AMIGO" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DS_EMAIL" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="NR_TELEFONE" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="DT_NASCIMENTO" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ID_SEXO" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TB_SEXO" Relationship="AGENDAModel.FK_TB_AMIGO_TB_SEXO" FromRole="TB_AMIGO" ToRole="TB_SEXO" />
+  </EntityType>
+  <EntityType Name="TB_SEXO">
+    <Key>
+      <PropertyRef Name="ID_SEXO" />
+    </Key>
+    <Property Name="ID_SEXO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DS_SEXO" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TB_AMIGO" Relationship="AGENDAModel.FK_TB_AMIGO_TB_SEXO" FromRole="TB_SEXO" ToRole="TB_AMIGO" />
+  </EntityType>
+  <Association Name="FK_TB_AMIGO_TB_SEXO">
+    <End Type="AGENDAModel.TB_SEXO" Role="TB_SEXO" Multiplicity="1" />
+    <End Type="AGENDAModel.TB_AMIGO" Role="TB_AMIGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_SEXO">
+        <PropertyRef Name="ID_SEXO" />
+      </Principal>
+      <Dependent Role="TB_AMIGO">
+        <PropertyRef Name="ID_SEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

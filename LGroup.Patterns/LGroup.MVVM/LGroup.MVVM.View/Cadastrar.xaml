@@ -1,0 +1,25 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ViewModel="clr-namespace:LGroup.MVVM.ViewModel;assembly=LGroup.MVVM.ViewModel" x:Class="LGroup.MVVM.View.Cadastrar"
+        Title="Cadastrar" Height="391.354" Width="426.315">
+    <Window.ContextMenu>
+        <ContextMenu/>
+    </Window.ContextMenu>
+    <Window.DataContext>
+        <ViewModel:CadastrarViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Label Content="Nome Completo:" HorizontalAlignment="Left" Margin="18,11,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="18,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefone:" HorizontalAlignment="Left" Margin="18,142,0,0" VerticalAlignment="Top"/>
+        <Label Content="Data de Nascimento:" HorizontalAlignment="Left" Margin="18,208,0,0" VerticalAlignment="Top"/>
+        <Button Content="Limpar" HorizontalAlignment="Left" Margin="116,303,0,0" VerticalAlignment="Top" Width="75" Command="{Binding ClickLimpar}" />
+        <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="224,303,0,0" VerticalAlignment="Top" Width="75" Command="{Binding ClickCadastrar}"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="21,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Text="{Binding Nome}"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="24,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" Text="{Binding Email}"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="24,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="252" Text="{Binding Telefone}"/>
+        <DatePicker HorizontalAlignment="Left" Margin="24,231,0,0" VerticalAlignment="Top" Width="252" SelectedDate="{Binding DataNascimento}"/>
+
+    </Grid>
+</Window>

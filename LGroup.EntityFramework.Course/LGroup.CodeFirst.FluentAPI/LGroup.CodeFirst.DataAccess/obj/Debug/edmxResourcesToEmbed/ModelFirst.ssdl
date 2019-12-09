@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelFirst.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstStoreContainer">
+    <EntitySet Name="TB_PONTO" EntityType="ModelFirst.Store.TB_PONTO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TB_FUNCIONARIO" EntityType="ModelFirst.Store.TB_FUNCIONARIO" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="TB_FUNCIONARIOTB_PONTO" Association="ModelFirst.Store.TB_FUNCIONARIOTB_PONTO">
+      <End Role="TB_FUNCIONARIO" EntitySet="TB_FUNCIONARIO" />
+      <End Role="TB_PONTO" EntitySet="TB_PONTO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TB_PONTO">
+    <Key>
+      <PropertyRef Name="ID_PONTO" />
+    </Key>
+    <Property Name="ID_PONTO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_FUNCIONARIO" Type="int" Nullable="false" />
+    <Property Name="DT_PONTO" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TB_FUNCIONARIO">
+    <Key>
+      <PropertyRef Name="ID_FUNCIONARIO" />
+    </Key>
+    <Property Name="ID_FUNCIONARIO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NM_FUNCIONARIO" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="NR_TELEFONE" Type="nvarchar" Nullable="false" MaxLength="15" />
+  </EntityType>
+  <Association Name="TB_FUNCIONARIOTB_PONTO">
+    <End Role="TB_FUNCIONARIO" Type="ModelFirst.Store.TB_FUNCIONARIO" Multiplicity="1" />
+    <End Role="TB_PONTO" Type="ModelFirst.Store.TB_PONTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_FUNCIONARIO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Principal>
+      <Dependent Role="TB_PONTO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

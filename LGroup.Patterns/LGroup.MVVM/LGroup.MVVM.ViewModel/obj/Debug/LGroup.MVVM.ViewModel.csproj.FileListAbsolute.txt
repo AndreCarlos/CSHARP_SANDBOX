@@ -1,0 +1,7 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\bin\Debug\LGroup.MVVM.ViewModel.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\bin\Debug\LGroup.MVVM.ViewModel.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\obj\Debug\LGroup.MVVM.ViewModel.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\obj\Debug\LGroup.MVVM.ViewModel.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\obj\Debug\LGroup.MVVM.ViewModel.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\bin\Debug\LGroup.MVVM.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.MVVM\LGroup.MVVM.ViewModel\bin\Debug\LGroup.MVVM.Model.pdb

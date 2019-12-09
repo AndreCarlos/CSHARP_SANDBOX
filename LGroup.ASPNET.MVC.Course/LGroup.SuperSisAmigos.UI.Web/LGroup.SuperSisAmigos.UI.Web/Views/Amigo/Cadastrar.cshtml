@@ -1,0 +1,39 @@
+﻿
+@{
+    @* o viewbag eh um local de aramzenamento de dados exclusivo do MVC
+        sempre que precisarmos levar algo do CONTROLLER para tela ou da página filha
+        para página pai uma das formas é utilizar o viewbag. Não tem limite de espaço, ele fica
+        na memória RAM, quanto mais memória melhor e o legal dele eh que ele AUTO LIMPA (AUTO RECICLA)
+        Assim que carrega a pagina ele some (sai da memória) independente se você leu ou não o que está dentro
+        
+        criamos uma variavel chamada titulo dentro do VIEWBAG para settar um texto no <H1> lá na página pai
+        *@
+    ViewBag.Titulo = "Cadastro de Amigos";
+    
+}
+
+@* Descarregamos o miolo da pagina os campos de cadastro*@
+
+@Html.Partial("_PartialAmigo")
+
+@* Em uma partial view nao da para colocar uma SECTION RAZOR, apesar de nçao dar erro
+    ele nao exibe, não aplica o CSS, nem o JS
+*@
+@* Temos uma tecnica do RAZOR chamada SECTIONS eh uma forma de transportar. levar
+   conteudo (HTML, CSS JS, IMAGENS) de uma tela filha para uma tela pai
+*@
+
+@section MeusScripts{
+<script src="~/Scripts/scripts.js"></script>
+}
+
+@* aqui no razor temos uma técnica chamada de sessão (section)
+    conseguimos levar html, css e JS de uma página filha para uma página pai (transfere)
+*@
+
+@section MeusStyles{
+@* estilizamos as mensagens de erro da página sobrepusemos o padrão! *@ 
+    <link href="~/Content/estilos.css" rel="stylesheet" />
+}
+
+

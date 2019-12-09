@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+@* PRÉ REQUISITOS PARA CRIAR O PROJETO
+    Assim que criamos um projeto em MVC nos VS2013 vem com a versão 5.0, Temos que baixar a versão
+    mais rescente(mais melhorias, menos bugs e mais performance = NUBET = ASP,NET MVC 5,2,3
+    Todas as mensagens automáticas (que aparecem do nada) no MVC são em Inglês: Para deixar em 
+    Português, baixar o pacote de tradução do NUGET ASP.NET.MVC-PT-BR
+*@
+
+
+@* PARA QUE as paginas possuem o mesmo layout, a mesma inteface visual (padronizada) criamos uma pagina
+    mestre (pai) também conhecida como LAYOUT PAGE (MASTER PAGE) 
+    e como elas devem ser visiveis em todo projetop jogamos dentro da pasta compartilhada (SHARED)
+*@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Titulo</title>
+
+    @* CSS senpre no head para que a tela sempre carregue estilizada
+       Todas as configurações viusal do bootstrap descem desse arquivo abaixo
+        OBS: sempre utilizar arquivos .MIN (JS, CSS)
+        MIN >> MINIFIED = COMPACTADO
+        Eh uma versao menor do arquivo, eh menor porque nao tem quebras de lonha nem comentarios
+        e nem espaços em branco
+    *@ 
+    @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />*@
+
+    @* configuramos um tema do bootstrap atraves do BOOTSWATCH *@
+    @*<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />*@
+
+    @* Descarregamos o CSS agrupado e minificado *@
+    @Styles.Render("~/CSS")
+
+    @* subimos um tema da jquery ui (biblioteca visual do jquery)
+    uma técnica de performance para web é sempre descer os CSS e JS de uma CDN (Content Delivery Network) = máquina remota
+    existem grandes servidores ao redor do mundo Jquery, google e microsoft
+    1 >> a máquina dessas empresas tem mais memória, processador e banda 
+    2 >> quando utilizamos arquivos de CDN o servidor de PROXY faz cache dos arquivos *@
+    <link href="http://code.jquery.com/ui/1.11.4/themes/start/jquery-ui.css" rel="stylesheet" />
+
+    @* descarregamos a secção de conteúdo de Estilos (.css) *@
+    @RenderSection("MeusStyles",false);
+
+</head>
+<body>
+    @* Trouxemos um menu - que agrega valor ao projeto - do Bootstrap *@
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">LGROUP</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/Amigo/Cadastrar">Cadastrar Amigos <span class="sr-only">(current)</span></a></li>
+                        <li><a href="/Amigo/Listar">Listar Amigos</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <h1 class="page-header"> @ViewBag.Titulo </h1>
+    </header>
+
+    @* Criamos uma seçao para exibiçao de mensagens *@
+    @* Pra não ficar para sempre visivel, só tem que mostrar se tiver mensagem  de sucesso na tempdata,
+        controlamos a visibilidade dele com um comando especial IF *@
+    @* Inserimos na patina pai (pra ficar visuavel para todos) o componente de exibição de mensagens de sucesso *@
+
+  @if (TempData["Sucesso"] != null)
+  {
+    <section>
+        <div class="container">
+          
+        </div>
+    </section>
+  }
+<section>
+    <div class="container">
+        @* quando navegarmos em uma pagina filha, o ASP.NET vai fazer o merge (mix) do HTML da pagina
+            pai com o HTML do pagina filha, o local que ele joga a pagina filah eh no RENDERBODY (PLACEHOLDER)
+        *@
+
+        @RenderBody()
+    </div>
+</section>
+
+    <footer>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                Todos os Direitos Reservados a LGROUP
+            </div>
+        </nav>
+    </footer>
+
+    @* o BOOTSTRAP roda em cima da jquery, temos que importar 
+        TEMOS QUE importar ele também (Mãe do bootstrap)
+        JS sempre no final da pagina, pra nao bloquear o carregamento da tela (LENTO)
+        *@
+    @*<script src="~/Scripts/jquery-1.9.0.min.js"></script>*@
+    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+
+    @* Importamos o modulo de mascatas do jquery da empresa DIGITALBUSH *@
+    @*<script src="~/Scripts/jquery.maskedinput.min.js"></script>*@
+
+    @* Importamos o modulo visual do Jquery, JQUERY UI . Ele equivaleria ao AJAX CONTROL TOOLKIT *@
+    @*<script src="~/Scripts/jquery-ui-1.11.4.min.js"></script>*@
+
+    @* pra fazer validaçoes com as anotacoes, baixamso uma pacote do NUGET chamado MICROSOFT
+        JQUERY UNOBTRUSIVE VALIDATION
+    *@
+    @* para fazer as validaççeos são sempre 3 passos
+        1 >> Colocar as anotaçções (Required, Range, Compare)
+        2 >> Exibir na tela com o ValidationMessageFor
+        3 >> Importar as bilbiotecas de validação
+    *@
+    @*<script src="~/Scripts/jquery.validate.min.js"></script>*@
+    @*<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@
+
+
+    @* Descarregamos aqui na pagina pai o bundle (agrupador) de scripts
+        ele foi  criado lá no arquivo bundleconfig *@
+    @Scripts.Render("~/JS")
+
+
+    @* Colocamos aqui nesse local, a secção de conteudo de scripts que foi definida nas paginas filhas *@
+    @* Quando criamos uma secção razor, ela por padrao deve ser declarada em todas as paginas do projeto. 
+        Mas tem páginas que nao vao ter JS. Para nao dar erro na pagina, colocar o parametro FALSE *@
+    @RenderSection("MeusScripts",false)
+</body>
+</html>

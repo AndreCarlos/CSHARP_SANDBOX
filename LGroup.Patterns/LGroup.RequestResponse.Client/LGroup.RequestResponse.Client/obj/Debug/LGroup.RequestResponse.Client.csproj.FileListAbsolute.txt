@@ -1,0 +1,9 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\bin\Debug\LGroup.RequestResponse.Client.exe.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\bin\Debug\LGroup.RequestResponse.Client.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\bin\Debug\LGroup.RequestResponse.Client.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.Form1.resources
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.Properties.Resources.resources
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse.Client\LGroup.RequestResponse.Client\obj\Debug\LGroup.RequestResponse.Client.pdb

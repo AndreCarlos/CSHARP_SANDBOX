@@ -1,0 +1,70 @@
+﻿@* a tela de cadastro de clientes tem que ser montada
+    emcima da classe de modelo de clientes (clientemodel)*@
+
+@* aqui no mvc temos um recurso chamado model binding que significa que os campos das tela
+    sao sincronizados automaticamente nos campos de uma determinada classe*@
+
+@using LGroup.CodeFirst.Model
+
+@*ESSE É O MODEL BINDING*@
+@model ClienteModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cadastrar</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1> :: Cadastro de Clientes ::</h1>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            @*o bom do mvc eh que ele eh hibrido, podemos desenhar a tela em HTML puro ou 
+                fazer um mix com razer (c#) isso se chama HTML HELPERS*@
+
+            @using (Html.BeginForm("Cadastrar", "Cliente", FormMethod.Post))   //setar a rota manualmente, método | controller | form
+            {
+                <div>
+                    @Html.LabelFor(x => x.Nome)
+                    @Html.TextBoxFor(x => x.Nome)
+                </div>
+
+                <div>
+                    @Html.LabelFor(x => x.CPF)
+                    @Html.TextBoxFor(x => x.CPF)
+                </div>
+
+                <div>
+                    @Html.LabelFor(x => x.DataNascimento)
+                    @Html.TextBoxFor(x => x.DataNascimento)
+                </div>
+
+                <div>
+                    @Html.LabelFor(x => x.Email)
+                    @Html.TextBoxFor(x => x.Email)
+                </div>
+
+                <div>
+                    @Html.LabelFor(x => x.Endereco)
+                    @Html.TextBoxFor(x => x.Endereco)
+                </div>
+                
+                <div>
+                    <input type="reset" id="limpar" value="Limpar"/>
+                    <input type="submit" id="cadastrar" value="Cadastrar"/>
+                </div>
+            }
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados ao <strong>Grupo Notre Dame</strong></p>
+    </footer>
+</body>
+</html>

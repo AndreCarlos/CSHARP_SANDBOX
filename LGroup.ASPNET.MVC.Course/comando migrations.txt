@@ -1,0 +1,42 @@
+PM> enable-migrations
+Checking if the context targets an existing database...
+Detected database created with a database initializer. Scaffolded migration '201506061750296_InitialCreate' corresponding to existing database. To use an automatic migration instead, delete the Migrations folder and re-run Enable-Migrations specifying the -EnableAutomaticMigrations parameter.
+Code First Migrations enabled for project LGroup.SuperSisAmigos.DataAcces.
+PM> add-migration EnderecoNumeroMigration
+Scaffolding migration 'EnderecoNumeroMigration'.
+The Designer Code for this migration file includes a snapshot of your current Code First model. This snapshot is used to calculate the changes to your model when you scaffold the next migration. If you make additional changes to your model that you want to include in this migration, then you can re-scaffold it by running 'Add-Migration EnderecoNumeroMigration' again.
+PM> update-database
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Applying explicit migrations: [201506061817460_EnderecoNumeroMigration].
+Applying explicit migration: 201506061817460_EnderecoNumeroMigration.
+Running Seed method.
+PM> add-migration CepMigration
+Scaffolding migration 'CepMigration'.
+The Designer Code for this migration file includes a snapshot of your current Code First model. This snapshot is used to calculate the changes to your model when you scaffold the next migration. If you make additional changes to your model that you want to include in this migration, then you can re-scaffold it by running 'Add-Migration CepMigration' again.
+PM> update-database
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Applying explicit migrations: [201506061830188_CepMigration].
+Applying explicit migration: 201506061830188_CepMigration.
+Running Seed method.
+PM> 
+PM> update-database -TargetMigration:InitialCreate
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Reverting migrations: [201506061830188_CepMigration, 201506061817460_EnderecoNumeroMigration].
+Reverting explicit migration: 201506061830188_CepMigration.
+Reverting explicit migration: 201506061817460_EnderecoNumeroMigration.
+PM> update-database
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Applying explicit migrations: [201506061817460_EnderecoNumeroMigration, 201506061830188_CepMigration].
+Applying explicit migration: 201506061817460_EnderecoNumeroMigration.
+Applying explicit migration: 201506061830188_CepMigration.
+Running Seed method.
+PM> update-database -TargetMigration:InitialCreate
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Reverting migrations: [201506061830188_CepMigration, 201506061817460_EnderecoNumeroMigration].
+Reverting explicit migration: 201506061830188_CepMigration.
+Reverting explicit migration: 201506061817460_EnderecoNumeroMigration.
+PM> update-database
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+No pending explicit migrations.
+Running Seed method.
+PM> 

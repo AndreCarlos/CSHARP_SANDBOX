@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Titulo = "Edição de Amigos";
+    //Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+
+@* Para as duas telas (cadastrar e editar) ficarem iguais, reutilizamos a partirl view de amigos.
+    Descarregamos o miolo da pagina os campos de cadastro
+*@
+
+@Html.Partial("_PartialAmigo")
+
+@section MeusScripts{
+    <script src="~/Scripts/scripts.js"></script>
+}
+
+@section MeusStyles{
+    <link href="~/Content/estilos.css" rel="stylesheet" />
+}

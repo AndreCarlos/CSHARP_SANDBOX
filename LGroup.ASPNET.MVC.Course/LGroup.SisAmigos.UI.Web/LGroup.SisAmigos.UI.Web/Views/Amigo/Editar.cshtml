@@ -1,0 +1,97 @@
+﻿@* fizemos o recebimento dos dados que estão vindo do controller *@
+
+@using LGroup.SisAmigos.UI.Web.DataAccess
+@model TB_AMIGO
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>..:: SISAMIGOS 1.0 ::..</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>..:: Edição de Amigos ::..</h1>
+        </div>
+    </header>
+
+    @* O MVC eh hibrido, podemos desenhar a tela de duas formas:
+        1- html puro >> cadastrar
+        2- html helpers >> editar
+    *@
+    <section>
+        <div>
+            @* vamos chegar ao mesmo resultado final da pagina de cadastrar utilizando html helpers
+                eh uma forma de montar a tela utilizando C#(razor)
+            *@
+            @* o comando using abre e fecha automaticamente as tags. Ele vai abrir e fechar o <form></form>*@
+            @using (Html.BeginForm("Atualizar","Amigo", FormMethod.Post))
+            {
+                @* No update precisamos do codigo do amigo, para nao ter que colocar um textbox de codigo
+                    (tosco), para que ele não fique visivel na tela, criamos um campo oculto *@
+                @Html.Hidden("codigo", Model.ID_AMIGO)
+                
+                <div>
+                    @* quando utilizamos o label temos que passar dois parametros
+                        1 - label for (campo foco)
+                        2 - texto do label
+                        *@
+                    @Html.Label("nome", "Nome")
+                    @*ao utilizar o html helper de textbox passamos 3 parametros 
+                        1-nome, id do campo
+                        2-texto que queremso mostrar dentro do campo
+                        3-Eh onde settamos os atributos html daquele elemento (campo)
+                        sempre que encontrar um paramentro chamado htmlAttributes, mete o new{} e sai
+                        colocando o nome e conteudo do attr*@
+                    @Html.TextBox("nome",Model.NM_AMIGO, new {autofocus = "autofocus"})
+                </div>
+                <div>
+                    @Html.Label("email","Email")
+                    @Html.TextBox("email", Model.DS_EMAIL, new {placeholder = "Informe um email comercial",size="30",type="email" })
+                </div>
+                <div>
+                    @Html.Label("telefone","Telefone")
+                    @* quando colocamos o helper textbox o type eh sempre text
+                        pra sair algum type diferente settar na unha (html attibutes) *@
+                    @Html.TextBox("telefone", Model.NR_TELEFONE, new { type = "tel"})
+                </div>
+                <div>
+                    @* os campos que nao tiveram html helper (razor) tem que ir na raça utilizando hmtl puro *@
+                    @Html.Label("Data","Data de Nascimento")
+
+                    @* o segundo parametro do textbox eh para exibir uma informaçao dentro do campo
+                        mandamos exibir o conteudo do campo DT_NASCIMENTO que chegou lá em cima (MODEL BINDING)*@
+                    @* o terceiro parametro eh uma novidade que tem desde o MVC4, é onde conseguimos mudar o formato
+                        do campo, mudamos o formato da data para ANO-MES-DIA (AMERICANO) *@
+                    @Html.TextBox("Data", Model.DT_NASCIMENTO, "{0:yyy-MM-dd}", new { type="date"})
+                </div>
+                <div>
+                    @Html.Label("sexo","Sexo")
+                    @* montamos um dropdown(combo) a partir do viewbag (dados secundários) *@
+                    @* como o viewbag é dynamic ele nao sabe o que tem lá dentro. No dropdown somos obrigados
+                        a falar que temos um SELECTLIST. Você foi obrigado a fazer uma conversão e deixar
+                        bem claro o que vai vir dentro do VIEWBAG *@
+                    @Html.DropDownList("sexo", ViewBag.ListaSexos as SelectList)
+                </div>
+                @* o resultado final da pagina é sempre html. Os html helpers viram html puro *@
+                <div>
+                    <input type="reset" name="limpar" id="limpar" value="Limpar" />
+                    <input type="submit" name="atualizar" id="atualizar" value="Atualizar" />
+                </div>
+            }
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; Todos os Direitos Reservados ao <strong>LGROUP</strong></p>
+        </div>
+    </footer>
+</body>
+</html>

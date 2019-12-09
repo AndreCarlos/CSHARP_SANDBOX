@@ -1,0 +1,27 @@
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.dll
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.pdb
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.csprojResolveAssemblyReference.cache
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.dll
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.pdb
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.dll
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\BankOfAmerica.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\JpMorgan.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\UOL.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Business.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\BankOfAmerica.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\JpMorgan.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\UOL.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\bin\Debug\LGroup.Adapter.Model.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.csprojResolveAssemblyReference.cache
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Business\obj\Debug\LGroup.Adapter.Business.pdb

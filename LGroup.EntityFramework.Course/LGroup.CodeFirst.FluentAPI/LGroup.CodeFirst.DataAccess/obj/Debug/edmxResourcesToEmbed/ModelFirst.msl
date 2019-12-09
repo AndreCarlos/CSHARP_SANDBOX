@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelFirstStoreContainer" CdmEntityContainer="ModelFirstContainer">
+    <EntitySetMapping Name="TB_PONTO">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.TB_PONTO)">
+        <MappingFragment StoreEntitySet="TB_PONTO">
+          <ScalarProperty Name="ID_PONTO" ColumnName="ID_PONTO" />
+          <ScalarProperty Name="ID_FUNCIONARIO" ColumnName="ID_FUNCIONARIO" />
+          <ScalarProperty Name="DT_PONTO" ColumnName="DT_PONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_FUNCIONARIO">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.TB_FUNCIONARIO)">
+        <MappingFragment StoreEntitySet="TB_FUNCIONARIO">
+          <ScalarProperty Name="ID_FUNCIONARIO" ColumnName="ID_FUNCIONARIO" />
+          <ScalarProperty Name="NM_FUNCIONARIO" ColumnName="NM_FUNCIONARIO" />
+          <ScalarProperty Name="NR_TELEFONE" ColumnName="NR_TELEFONE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

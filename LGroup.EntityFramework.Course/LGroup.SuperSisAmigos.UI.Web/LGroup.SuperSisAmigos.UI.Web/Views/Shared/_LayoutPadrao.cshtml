@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @*As mensagens de validação que configuramos no MODEL
+        São disparadas pelas 2 bibliotecas abaixo*@
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @*Descarregamos (exibimos) as sections, os bloquinhos de CSS
+        E JS que foram criados dentro das páginas filhas*@
+    @if (IsSectionDefined("Styles"))
+    {
+        @RenderSection("Styles")
+    }
+
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts")
+    }
+</head>
+<body>
+    <header>
+        <img src="~/Content/Images/LogoTipo.png" />
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">LGROUP</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        @*Tomar cuidado ao colocar rotas! Pois os links vão se perder. Sempre que você colocar um link
+                            tem que falar se ele é ou não de uma AREA
+                            ULTIMO PARÂMETRO SEMPRE NULL (HTMLATTRIBUTES)*@
+                        <li>@Html.ActionLink("Lista de Amigos", "Listar", "Amigo", new { Area = "" }, null)</li>
+                        <li>@Html.ActionLink("Cadastro de Amigos", "Cadastrar", "Amigo", new { Area = "" }, null)</li>
+                        <li>@Html.ActionLink("Sair", "Logout", "Usuario", new { Area = "Administrativa"}, null)</li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <section class="container">
+        @*Se chegou alguma mensagem de erro, descarregamos na página a PARTIAL VIEW DE ERRO e pra
+            Mensagem de sucesso, o mesmo procedimento*@
+        @if (TempData["SUCESSO"] != null)
+        {
+            @Html.Partial("_PartialSucesso")
+        }
+        else if (TempData["ERRO"] != null)
+        {
+            @Html.Partial("_PartialErro")
+        }
+    </section>
+    <section class="container">
+        @*Aqui nesse comando é onde vai ser colocado
+            o conteudo da página filha, quando rodarmos
+            o asp.net pega o html do filho e joga por cima
+            do renderbody*@
+        @RenderBody()
+    </section>
+    <footer>
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                &copy; Todos os direitos reservados ao <strong>Bozo</strong>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

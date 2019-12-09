@@ -1,0 +1,7 @@
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\bin\Debug\LGroup.Strategy.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\bin\Debug\LGroup.Strategy.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\bin\Debug\LGroup.Strategy.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\bin\Debug\LGroup.Strategy.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\obj\Debug\LGroup.Strategy.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\obj\Debug\LGroup.Strategy.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy\obj\Debug\LGroup.Strategy.pdb

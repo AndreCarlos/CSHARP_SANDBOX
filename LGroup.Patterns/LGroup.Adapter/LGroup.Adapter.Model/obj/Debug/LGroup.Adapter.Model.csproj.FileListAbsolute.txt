@@ -1,0 +1,14 @@
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.dll
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.pdb
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.csprojResolveAssemblyReference.cache
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.dll
+C:\Users\LGroup\Desktop\Lgroup.Integracao.Services\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\bin\Debug\LGroup.Adapter.Model.pdb
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.csprojResolveAssemblyReference.cache
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.dll
+C:\devESTUDOS\DESIGN PATTERNS\LGroup.Patterns\LGroup.Adapter\LGroup.Adapter.Model\obj\Debug\LGroup.Adapter.Model.pdb

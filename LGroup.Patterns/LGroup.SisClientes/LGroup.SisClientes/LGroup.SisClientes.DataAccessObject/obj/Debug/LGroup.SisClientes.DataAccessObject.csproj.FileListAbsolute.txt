@@ -1,0 +1,22 @@
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataAccessObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataAccessObject.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataTransferObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataTransferObject.pdb
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.csprojResolveAssemblyReference.cache
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.dll
+C:\Padrões\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataAccessObject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataAccessObject.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataTransferObject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\LGroup.SisClientes.DataTransferObject.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.SisClientes\LGroup.SisClientes\LGroup.SisClientes.DataAccessObject\obj\Debug\LGroup.SisClientes.DataAccessObject.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FLUENTModelStoreContainer" CdmEntityContainer="FLUENTEntities">
+    <EntitySetMapping Name="TB_PRODUTO">
+      <EntityTypeMapping TypeName="FLUENTModel.TB_PRODUTO">
+        <MappingFragment StoreEntitySet="TB_PRODUTO">
+          <ScalarProperty Name="ID_PRODUTO" ColumnName="ID_PRODUTO" />
+          <ScalarProperty Name="NM_PRODUTO" ColumnName="NM_PRODUTO" />
+          <ScalarProperty Name="NM_DESCRICAO" ColumnName="NM_DESCRICAO" />
+          <ScalarProperty Name="VL_PRODUTO" ColumnName="VL_PRODUTO" />
+          <ScalarProperty Name="FLG_STATUS" ColumnName="FLG_STATUS" />
+          <ScalarProperty Name="NM_FORNECEDOR" ColumnName="NM_FORNECEDOR" />
+          <ScalarProperty Name="NM_CATEGORIA" ColumnName="NM_CATEGORIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

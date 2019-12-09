@@ -1,0 +1,6 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\bin\Debug\LGroup.LazyLoad.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\bin\Debug\LGroup.LazyLoad.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\bin\Debug\FizzWare.NBuilder.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\obj\Debug\LGroup.LazyLoad.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\obj\Debug\LGroup.LazyLoad.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.LazyLoad\LGroup.LazyLoad.Model\obj\Debug\LGroup.LazyLoad.Model.pdb

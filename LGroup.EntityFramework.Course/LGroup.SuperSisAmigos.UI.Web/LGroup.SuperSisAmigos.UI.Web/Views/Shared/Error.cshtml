@@ -1,0 +1,21 @@
+﻿@model HandleErrorInfo
+@{
+    Layout = "~/Views/Shared/_LayoutPadrao.cshtml";
+}
+<table>
+    <tr>
+        <td>
+            Controller: @Model.ControllerName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Action: @Model.ActionName
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Erro: @Model.Exception.Message
+        </td>
+    </tr>
+</table>

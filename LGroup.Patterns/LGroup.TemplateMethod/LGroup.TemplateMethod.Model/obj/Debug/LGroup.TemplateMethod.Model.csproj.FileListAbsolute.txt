@@ -1,0 +1,5 @@
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Model\bin\Debug\LGroup.TemplateMethod.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Model\bin\Debug\LGroup.TemplateMethod.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Model\obj\Debug\LGroup.TemplateMethod.Model.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Model\obj\Debug\LGroup.TemplateMethod.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.TemplateMethod\LGroup.TemplateMethod.Model\obj\Debug\LGroup.TemplateMethod.Model.pdb

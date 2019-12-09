@@ -1,0 +1,9 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\LGroup.Builder.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\LGroup.Builder.Test.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\LGroup.Builder.Model.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\nunit.framework.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\LGroup.Builder.Model.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\bin\Debug\nunit.framework.xml
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\obj\Debug\LGroup.Builder.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\obj\Debug\LGroup.Builder.Test.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Builder\LGroup.Builder.Test\obj\Debug\LGroup.Builder.Test.pdb

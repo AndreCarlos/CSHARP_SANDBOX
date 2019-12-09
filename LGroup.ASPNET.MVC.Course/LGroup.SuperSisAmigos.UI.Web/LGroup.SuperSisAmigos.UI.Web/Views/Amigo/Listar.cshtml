@@ -1,0 +1,56 @@
+﻿@* Para pegar os dados que estão vindo lá da action, controller listar
+   temos que fazer o MODEL BINDING
+*@
+
+@model IEnumerable<AmigoViewModel>
+
+@{
+    ViewBag.Titulo = "Lista de Amigos";
+}
+
+@* Como nao temos gridview aqui no MVC temos que montar um grid na raça (table, div) tem que fazer o looping na raça *@
+<table class="table table-hover">
+    <thead>
+       <tr>
+           <td>Excluir</td>
+           <td>Editar</td>
+           <td>Código</td>
+           <td>Nome</td>
+           <td>Email</td>
+           <td>Telefone</td>
+           <td>Data de Nascimento</td>
+       </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var amigo in Model) 
+        { 
+        <tr>
+            <td>
+               @* <span class="glyphicon glyphicon></span>*@
+            </td>
+            <td>
+                <span class=""></span>
+            </td>
+            <td>@amigo.CodigoAmigo</td>
+            <td>@amigo.Nome</td>
+            <td>@amigo.Email</td>
+            <td>@amigo.Telefone</td>
+            <td>@amigo.DataNascimento.ToShortDateString()</td>
+        </tr>
+        }
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="7"> Total de Amigos: @Model.Count()</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+@* Acoplamos o metodo de extensao br dentro da classe HTML HELPER. Para não ter que mexer no código fonte da classe
+    criamos um comando de fora, que vai extender dentro dela
+*@
+@Html.Br()
+

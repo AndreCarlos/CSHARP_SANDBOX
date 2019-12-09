@@ -1,0 +1,33 @@
+﻿@model LGroup.SisClientes.UI.Web.ViewModels.ClienteViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cadastrar</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.LabelFor(x => x.Nome)
+            @Html.TextBoxFor(x => x.Nome)
+        </div>
+
+        <div>
+            @Html.LabelFor(x => x.Email)
+            @Html.TextBoxFor(x => x.Email)
+        </div>
+
+        <div>
+            @Html.LabelFor(x => x.Telefone)
+            @Html.TextBoxFor(x => x.Telefone)
+        </div>
+
+        <div>
+            <input type="submit" id="cadastrar" name="cadastrar" value="Cadastrar" />
+        </div>
+    }
+</body>
+</html>

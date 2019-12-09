@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_PONTO" EntityType="ModelFirst.TB_PONTO" />
+    <EntitySet Name="TB_FUNCIONARIO" EntityType="ModelFirst.TB_FUNCIONARIO" />
+    <AssociationSet Name="TB_FUNCIONARIOTB_PONTO" Association="ModelFirst.TB_FUNCIONARIOTB_PONTO">
+      <End Role="TB_FUNCIONARIO" EntitySet="TB_FUNCIONARIO" />
+      <End Role="TB_PONTO" EntitySet="TB_PONTO" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TB_PONTO">
+    <Key>
+      <PropertyRef Name="ID_PONTO" />
+    </Key>
+    <Property Name="ID_PONTO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_FUNCIONARIO" Type="Int32" Nullable="false" />
+    <Property Name="DT_PONTO" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="TB_FUNCIONARIO" Relationship="ModelFirst.TB_FUNCIONARIOTB_PONTO" FromRole="TB_PONTO" ToRole="TB_FUNCIONARIO" />
+  </EntityType>
+  <EntityType Name="TB_FUNCIONARIO">
+    <Key>
+      <PropertyRef Name="ID_FUNCIONARIO" />
+    </Key>
+    <Property Name="ID_FUNCIONARIO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NM_FUNCIONARIO" Type="String" Nullable="false" MaxLength="40" />
+    <Property Name="NR_TELEFONE" Type="String" Nullable="false" MaxLength="15" />
+    <NavigationProperty Name="TB_PONTO" Relationship="ModelFirst.TB_FUNCIONARIOTB_PONTO" FromRole="TB_FUNCIONARIO" ToRole="TB_PONTO" />
+  </EntityType>
+  <Association Name="TB_FUNCIONARIOTB_PONTO">
+    <End Type="ModelFirst.TB_FUNCIONARIO" Role="TB_FUNCIONARIO" Multiplicity="1" />
+    <End Type="ModelFirst.TB_PONTO" Role="TB_PONTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_FUNCIONARIO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Principal>
+      <Dependent Role="TB_PONTO">
+        <PropertyRef Name="ID_FUNCIONARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

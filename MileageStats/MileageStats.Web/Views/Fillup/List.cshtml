@@ -1,0 +1,47 @@
+﻿@model MileageStats.Web.Models.FillupDetailsViewModel
+@{    
+    ViewBag.Title = "Fill ups for " + @Model.VehicleList.Vehicles.SelectedItem.Name;    
+}
+<div id="details-page">
+    <div id="scrollable">
+        <div>
+            @Html.Partial("_VehicleList", Model.VehicleList)
+        </div>
+    </div>
+    <div id="fixed">
+        <div>
+            <div id="info" class="framed article">
+                <div>
+
+                    <div id="details-pane" class="tab opened section">
+                        @Html.ActionLink(" ", "Details", "Vehicle", new { id = Model.VehicleList.Vehicles.SelectedItem.VehicleId }, new { @class = "trigger" })
+                    </div>
+                    <div id="fillups-pane" class="tab opened section">
+                        @Html.ActionLink(" ", "List", "Fillup", new { vehicleId = Model.VehicleList.Vehicles.SelectedItem.VehicleId }, new { @class = "trigger" })
+                        <div class="content">
+                            <div class="header">
+                                @using (Html.BeginForm("Add", "Fillup", new { vehicleId = Model.VehicleList.Vehicles.SelectedItem.VehicleId }, FormMethod.Get))
+                                {
+                                    <button data-action="fillup-add-selected" class="button generic small" type="submit">
+                                        <img src="@Url.Content("~/Content/button-add.png")" title="Add Fill up" alt="Add" />
+                                    </button>
+                                }
+                            </div>
+                            <div class="aside">
+                                @Html.Partial("_FillupList", Model.Fillups)
+                            </div>
+                            <div class="display article">
+                                @{if (Model.FillupEntry != null)
+                                  { @Html.Partial("_FillupDetails", Model.FillupEntry) }}
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reminders-pane" class="tab section">
+                        @Html.ActionLink(" ", "List", "Reminder", new { vehicleId = Model.VehicleList.Vehicles.SelectedItem.VehicleId }, new { @class = "trigger" })
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

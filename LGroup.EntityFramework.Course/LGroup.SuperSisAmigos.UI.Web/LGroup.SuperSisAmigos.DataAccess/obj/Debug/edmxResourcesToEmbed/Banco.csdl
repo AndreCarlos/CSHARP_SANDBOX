@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SISAMIGOSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TB_AMIGO">
+    <Key>
+      <PropertyRef Name="ID_AMIGO" />
+    </Key>
+    <Property Name="ID_AMIGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_SEXO" Type="Int32" Nullable="false" />
+    <Property Name="NM_AMIGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DS_EMAIL" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NR_TELEFONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DT_NASCIMENTO" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="TB_SEXO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_AMIGO" ToRole="TB_SEXO" />
+  </EntityType>
+  <EntityType Name="TB_SEXO">
+    <Key>
+      <PropertyRef Name="ID_SEXO" />
+    </Key>
+    <Property Name="ID_SEXO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DS_SEXO" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TB_AMIGO" Relationship="Self.FK_TB_AMIGO_TB_SEXO" FromRole="TB_SEXO" ToRole="TB_AMIGO" />
+  </EntityType>
+  <Association Name="FK_TB_AMIGO_TB_SEXO">
+    <End Role="TB_SEXO" Type="Self.TB_SEXO" Multiplicity="1" />
+    <End Role="TB_AMIGO" Type="Self.TB_AMIGO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TB_SEXO">
+        <PropertyRef Name="ID_SEXO" />
+      </Principal>
+      <Dependent Role="TB_AMIGO">
+        <PropertyRef Name="ID_SEXO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SISAMIGOSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_AMIGO" EntityType="Self.TB_AMIGO" />
+    <EntitySet Name="TB_SEXO" EntityType="Self.TB_SEXO" />
+    <AssociationSet Name="FK_TB_AMIGO_TB_SEXO" Association="Self.FK_TB_AMIGO_TB_SEXO">
+      <End Role="TB_SEXO" EntitySet="TB_SEXO" />
+      <End Role="TB_AMIGO" EntitySet="TB_AMIGO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

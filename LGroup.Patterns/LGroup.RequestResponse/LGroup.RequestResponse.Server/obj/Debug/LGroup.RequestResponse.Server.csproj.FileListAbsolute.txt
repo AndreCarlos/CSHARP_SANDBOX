@@ -1,0 +1,18 @@
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Server.exe.config
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Server.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Server.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.exe
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.DataTransferObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Service.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.ValueObject.dll
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.DataTransferObject.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Service.pdb
+D:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.ValueObject.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Server.exe.config
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.exe
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.pdb
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\bin\Debug\LGroup.RequestResponse.Server.exe.config
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.exe
+D:\ESTUDOS\PATTERNS\LGroup.Patterns\LGroup.RequestResponse\LGroup.RequestResponse.Server\obj\Debug\LGroup.RequestResponse.Server.pdb

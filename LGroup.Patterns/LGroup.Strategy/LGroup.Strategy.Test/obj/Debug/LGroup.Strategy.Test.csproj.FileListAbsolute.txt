@@ -1,0 +1,26 @@
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Test.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Test.pdb
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Business.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Model.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\nunit.framework.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Business.pdb
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Model.pdb
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.pdb
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\nunit.framework.xml
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.csprojResolveAssemblyReference.cache
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.dll
+C:\Padrões\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Test.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Test.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Business.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Model.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\nunit.framework.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Business.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.Model.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\LGroup.Strategy.pdb
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\bin\Debug\nunit.framework.xml
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.dll
+E:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Strategy\LGroup.Strategy.Test\obj\Debug\LGroup.Strategy.Test.pdb

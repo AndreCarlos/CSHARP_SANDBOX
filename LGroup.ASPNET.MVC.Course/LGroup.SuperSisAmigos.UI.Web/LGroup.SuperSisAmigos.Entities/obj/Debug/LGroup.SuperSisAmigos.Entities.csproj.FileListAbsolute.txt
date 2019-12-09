@@ -1,0 +1,5 @@
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.ASPNET.MVC.Course\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Entities\bin\Debug\LGroup.SuperSisAmigos.Entities.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.ASPNET.MVC.Course\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Entities\bin\Debug\LGroup.SuperSisAmigos.Entities.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.ASPNET.MVC.Course\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Entities\obj\Debug\LGroup.SuperSisAmigos.Entities.dll
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.ASPNET.MVC.Course\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Entities\obj\Debug\LGroup.SuperSisAmigos.Entities.pdb
+C:\Users\Andre Carlos\Documents\Visual Studio 2013\Projects\LGroup.ASPNET.MVC.Course\LGroup.SuperSisAmigos.UI.Web\LGroup.SuperSisAmigos.Entities\obj\Debug\LGroup.SuperSisAmigos.Entities.csprojResolveAssemblyReference.cache

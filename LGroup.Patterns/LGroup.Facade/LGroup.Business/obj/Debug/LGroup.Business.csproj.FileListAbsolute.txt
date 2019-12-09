@@ -1,0 +1,7 @@
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\bin\Debug\LGroup.Business.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\bin\Debug\LGroup.Business.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\obj\Debug\LGroup.Business.csprojResolveAssemblyReference.cache
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\obj\Debug\LGroup.Business.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\obj\Debug\LGroup.Business.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\bin\Debug\LGroup.Model.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Business\bin\Debug\LGroup.Model.pdb

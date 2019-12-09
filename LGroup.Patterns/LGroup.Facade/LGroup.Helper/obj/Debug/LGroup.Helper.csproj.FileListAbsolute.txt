@@ -1,0 +1,5 @@
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Helper\bin\Debug\LGroup.Helper.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Helper\bin\Debug\LGroup.Helper.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Helper\obj\Debug\LGroup.Helper.dll
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Helper\obj\Debug\LGroup.Helper.pdb
+F:\Visual Studio 2013\Projects\LGroup.Patterns\LGroup.Facade\LGroup.Helper\obj\Debug\LGroup.Helper.csprojResolveAssemblyReference.cache
